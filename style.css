@@ -951,18 +951,11 @@ textarea:focus {
 }
 
 .site-header {
-	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 100% no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	position: relative;
 	text-align: center;
-	background-attachment: fixed;
 }
 
 .site-title {
-	background: url('https://2020.athens.wordcamp.org/files/2020/03/wp-newdate.png') no-repeat;
+	background: url('https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece2021-Logo-F-01-e1611594878574.png') no-repeat;
 	width: 271px;
 	height: 500px;
 	margin: 0 auto;
