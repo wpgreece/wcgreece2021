@@ -625,7 +625,7 @@ a.btn.primary-btn:hover,
 input[type='submit']:hover,
 button[type='submit']:hover {
 	background-color: rgba(14,99,216,1);
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -690,7 +690,7 @@ textarea:focus {
 }
 
 .main-navigation {
-	background: var( --wpgc-color-dark-white  );
+	background: #ffffff;
 	top: 0;
 	position: fixed;
 	text-align: center;
@@ -709,7 +709,7 @@ textarea:focus {
 	letter-spacing: .05em;
 	border-radius: 0;
 	color: #05066a;
-	background-color: var( --wpgc-color-dark-white  );
+	background-color: #ffffff;
 	cursor: pointer;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
@@ -725,7 +725,7 @@ textarea:focus {
 .menu-toggle:active,
 .menu-toggle:focus,
 .menu-toggle:hover {
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 	background-color: #05066a;
 }
 
@@ -751,7 +751,7 @@ textarea:focus {
 }
 
 .menu-toggle:hover:after {
-	border-top-color: var( --wpgc-color-dark-white  );
+	border-top-color: #ffffff;
 }
 
 .menu-toggle[aria-expanded=true] {
@@ -772,7 +772,7 @@ textarea:focus {
 
 @media (max-width:47.9375em) {
 	.main-navigation {
-		background-color: var( --wpgc-color-dark-white  );
+		background-color: #ffffff;
 	}
 
 	.main-navigation.toggled-on .menu {
@@ -787,7 +787,7 @@ textarea:focus {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: var( --wpgc-color-dark-white  );
+	background-color: #ffffff;
 	position: relative;
 	z-index: 900;
 }
@@ -874,7 +874,7 @@ textarea:focus {
 .menu-item a:active,
 .menu-item a:focus,
 .menu-item a:hover {
-	color: var( --wpgc-color-dark-white );
+	color: #ffffff;
 	background-color: #05066a;
 }
 
@@ -891,7 +891,7 @@ textarea:focus {
 }
 
 .current-menu-item>a, .sub-menu li.current-menu-item a {
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 	background-color: #05066a;
 }
 
@@ -921,7 +921,7 @@ textarea:focus {
 
 	.menu-item-has-children.focus>a,
 		.menu-item-has-children:hover>a {
-		color: var( --wpgc-color-dark-white  );
+		color: #ffffff;
 		background-color: #05066a;
 	}
 
@@ -975,7 +975,7 @@ textarea:focus {
 	}
 
 	.sub-menu a:hover:before {
-		background-color: var( --wpgc-color-dark-white  );
+		background-color: #ffffff;
 	}
 }
 
@@ -986,7 +986,7 @@ textarea:focus {
 		left: -999em;
 		z-index: 310;
 		min-width: 16.25rem;
-		background-color: var( --wpgc-color-dark-white  );
+		background-color: #ffffff;
 		-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
 		-moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
 		box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
@@ -1001,7 +1001,7 @@ textarea:focus {
 
 	.sub-menu li.focus>a,
 		.sub-menu li:hover>a {
-		color: var( --wpgc-color-dark-white  );
+		color: #ffffff;
 		background-color: #05066a;
 	}
 
@@ -1302,7 +1302,7 @@ a.more-link {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 	cursor: pointer;
 	display: inline-block;
 	font-size: .75em;
@@ -1317,7 +1317,7 @@ a.more-link {
 
 .comment-reply-link:hover {
 	background: rgba(14,99,216,1);
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 }
 
 .comment-reply-title {
@@ -1665,7 +1665,7 @@ body.home #footer-widget-3 {
 
 .site-info .site-info-generator {
 	background: url('https://2020.athens.wordcamp.org/files/2020/02/logo_site_info.png') 50% 0 no-repeat;
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 	display: block;
 	padding-top: 16px;
 	padding-left: 183px;
@@ -1774,7 +1774,7 @@ div.sharedaddy a.sd-button {
 	opacity: 1;
 	padding: 4px 10px !important;
 	padding: .4rem 1rem !important;
-	color: var( --wpgc-color-dark-white  ) !important;
+	color: #ffffff !important;
 	text-transform: uppercase;
 }
 
@@ -1786,7 +1786,7 @@ li.share-email a.sb-button > span,
 li.share-email a.sd-button > span,
 li.share-jetpack-whatsapp a.sd-button > span {
 	border: none !important;
-	color: var( --wpgc-color-dark-white  ) !important;
+	color: #ffffff !important;
 	font-weight: 300;
 	letter-spacing: 0;
 	text-transform: uppercase;
@@ -1848,7 +1848,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 }
 
 .sd-content .sd-button span.share-count {
-	color: var( --wpgc-color-dark-white  ) !important;
+	color: #ffffff !important;
 	font-size: 100% !important;
 }
 
@@ -2006,7 +2006,7 @@ button, a.btn-sm {
 	padding: 10px;
 	text-align: center;
 	background: rgba(66,159,253,1);
-	color: var( --wpgc-color-dark-white  );
+	color: #ffffff;
 }
 
 .budget td {
