@@ -11,14 +11,15 @@
 
 /* =============================
 - TOC
--- 1. Reset
--- 2. Base CSS
---- 2.1 Typography
---- 2.2 General
+-- Reset
+-- Base CSS
+-- Typography
+-- General
+-- Header Logo
 ============================= */
 
 /* =============================
-1. Reset
+Reset
 de-style.css v1.0.5 | MIT License | https://github.com/nicolas-cusan/destyle.css
 ============================= */
 * {
@@ -350,11 +351,11 @@ template {
 }
 
 /* =============================
-2. Base CSS
+Base CSS
 ============================= */
 
 /* =============================
-2.1 Typography
+Typography
 ============================= */
 body {
 	background: var( --global-color-light-blue );
@@ -431,7 +432,7 @@ img {
 }
 
 /* =============================
-2.2 General
+General
 ============================= */
 .edit-link {
 	display: none !important;
@@ -506,6 +507,84 @@ body.page-id-148 #secondary {
 body.page-id-148 #primary {
 	width: 100%;
 }
+
+/* =============================
+Header Logo
+============================= */
+.home .site-header {
+	height: 80vh;
+}
+
+.site-header {
+	text-align: center;
+}
+
+.site-title {
+	background: url('https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece2021-Logo-F-01-e1611594878574.png') no-repeat;
+	width: 271px;
+	height: 500px;
+	margin: 0 auto;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-background-size: 85% auto;
+	-moz-background-size: 85% auto;
+	background-size: 85% auto;
+	background-position: 0 center;
+}
+
+.site-description {
+	display: none;
+}
+
+.site-header::before {
+	content: "";
+	width: 100%;
+	z-index: 1;
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.home .site-header hgroup {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.home .site-header hgroup,
+.page .site-header hgroup,
+.single .site-header hgroup {
+	position: relative;
+	z-index: 900;
+}
+
+.site-header hgroup {
+	padding: 4% 0;
+}
+
+.site-header img {
+	max-width: 80%;
+}
+
+.admin-bar .navbar-fixed-top {
+	top: 32px;
+}
+
+
+
+/**********************************************
+UNEDITED
+**********************************************/
+
+
+
+
+
+
+
 
 /* 2.3 Elements Styling
 /*======================================*/
@@ -594,6 +673,8 @@ textarea:focus {
 	width: 100%;
 	height: 100%;
 }
+
+
 
 /*======================================
 	03. Navigation Menu
@@ -944,69 +1025,6 @@ textarea:focus {
 /*/*======================================
 	04. Index
 ------------------------------------------*/
-/* 4.1 Big Hero Image
-==========================================*/
-.home .site-header {
-	height: 80vh;
-}
-
-.site-header {
-	text-align: center;
-}
-
-.site-title {
-	background: url('https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece2021-Logo-F-01-e1611594878574.png') no-repeat;
-	width: 271px;
-	height: 500px;
-	margin: 0 auto;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-background-size: 85% auto;
-	-moz-background-size: 85% auto;
-	background-size: 85% auto;
-	background-position: 0 center;
-}
-
-.site-description {
-	display: none;
-}
-
-.site-header::before {
-	content: "";
-	width: 100%;
-	z-index: 1;
-	display: block;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 100;
-}
-
-.home .site-header hgroup {
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.home .site-header hgroup,
-.page .site-header hgroup,
-.single .site-header hgroup {
-	position: relative;
-	z-index: 900;
-}
-
-.site-header hgroup {
-	padding: 4% 0;
-}
-
-.site-header img {
-	max-width: 80%;
-}
-
-.admin-bar .navbar-fixed-top {
-	top: 32px;
-}
 
 /* 4.2 Widgets Section
 ======================================*/
