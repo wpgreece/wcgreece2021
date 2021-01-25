@@ -515,10 +515,6 @@ body.page-id-148 #primary {
 /* =============================
 Header Logo
 ============================= */
-.site-header {
-	text-align: center;
-}
-
 .site-title {
 	background: url('https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece2021-Logo-F-01-e1611594878574.png') no-repeat;
 	width: 271px;
@@ -537,43 +533,9 @@ Header Logo
 	display: none;
 }
 
-.site-header::before {
-	content: "";
-	width: 100%;
-	z-index: 1;
-	display: block;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 100;
-}
-
-.home .site-header hgroup {
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.home .site-header hgroup,
-.page .site-header hgroup,
-.single .site-header hgroup {
-	position: relative;
-	z-index: 900;
-}
-
-.site-header hgroup {
-	padding: 4% 0;
-}
-
-.site-header img {
-	max-width: 80%;
-}
-
 .admin-bar .navbar-fixed-top {
 	top: 32px;
 }
-
-
 
 /**********************************************
 UNEDITED
