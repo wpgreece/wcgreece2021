@@ -343,16 +343,16 @@ template {
 /* =============================
 Variables
 ============================= */
-:root {
+/* :root {
 	--wpgc-color-dark-blue: #05066a;
 	--wpgc-color-medium-blue: #1b1982;
-	--wpgc-color-light-blue: #8585c6;
+	--wpgc-color-purple: #8585c6;
 	--wpgc-color-teal: #66c7c2;
 	--wpgc-color-yellow: #ffcf6e;
 	--wpgc-color-red: #ffb0a3;
 	--wpgc-color-black: #1b1b1b;
 	--wpgc-color-dark-white: #ffffff;
-}
+} */
 
 /* =============================
 Base CSS
@@ -362,8 +362,8 @@ Base CSS
 Typography
 ============================= */
 body {
-	background: var( --wpgc-color-light-blue );
-	color: var( --wpgc-color-black );
+	background: #8585c6;
+	color: #1b1b1b;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
@@ -467,12 +467,12 @@ a {
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 	outline: none;
-	color: var( --wpgc-color-dark-blue );
+	color: #05066a;
 	text-decoration: none;
 }
 
 a:hover, a:focus {
-	color: var( --wpgc-color-medium-blue );
+	color: #1b1982;
 	outline: none;
 	text-decoration: underline;
 }
@@ -708,7 +708,7 @@ textarea:focus {
 	text-align: center;
 	letter-spacing: .05em;
 	border-radius: 0;
-	color: var( --wpgc-color-dark-blue );
+	color: #05066a;
 	background-color: var( --wpgc-color-dark-white  );
 	cursor: pointer;
 	-moz-transition: all .3s ease;
@@ -716,7 +716,7 @@ textarea:focus {
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 	z-index: 900;
-	border-bottom: 2px solid var( --wpgc-color-dark-blue );
+	border-bottom: 2px solid #05066a;
 	position: absolute;
 	top: 0;
 }
@@ -726,7 +726,7 @@ textarea:focus {
 .menu-toggle:focus,
 .menu-toggle:hover {
 	color: var( --wpgc-color-dark-white  );
-	background-color: var( --wpgc-color-dark-blue );
+	background-color: #05066a;
 }
 
 .menu-toggle:before {
@@ -746,7 +746,7 @@ textarea:focus {
 	top: .25rem;
 	border: .375rem solid transparent;
 	margin-left: .5rem;
-	border-top-color: var( --wpgc-color-dark-blue );
+	border-top-color: #05066a;
 	content: "";
 }
 
@@ -755,13 +755,13 @@ textarea:focus {
 }
 
 .menu-toggle[aria-expanded=true] {
-	color: var( --wpgc-color-dark-blue );
+	color: #05066a;
 }
 
 .menu-toggle[aria-expanded=true]:after {
 	top: -.25rem;
 	border-top-color: transparent;
-	border-bottom-color: var( --wpgc-color-dark-blue );
+	border-bottom-color: #05066a;
 }
 
 @media (min-width:37.5em) {
@@ -875,7 +875,7 @@ textarea:focus {
 .menu-item a:focus,
 .menu-item a:hover {
 	color: var( --wpgc-color-dark-white );
-	background-color: var( --wpgc-color-dark-blue );
+	background-color: #05066a;
 }
 
 @media (min-width:37.5em) {
@@ -892,7 +892,7 @@ textarea:focus {
 
 .current-menu-item>a, .sub-menu li.current-menu-item a {
 	color: var( --wpgc-color-dark-white  );
-	background-color: var( --wpgc-color-dark-blue );
+	background-color: #05066a;
 }
 
 .sub-menu
@@ -910,7 +910,7 @@ textarea:focus {
 		bottom: -.125rem;
 		border: .25rem solid transparent;
 		left: .5rem;
-		border-top-color: var( --wpgc-color-dark-blue );
+		border-top-color: #05066a;
 		content: "";
 	}
 
@@ -922,12 +922,12 @@ textarea:focus {
 	.menu-item-has-children.focus>a,
 		.menu-item-has-children:hover>a {
 		color: var( --wpgc-color-dark-white  );
-		background-color: var( --wpgc-color-dark-blue );
+		background-color: #05066a;
 	}
 
 	.menu-item-has-children.focus>a:after,
 		.menu-item-has-children:hover>a:after {
-		border-top-color: var( --wpgc-color-dark-blue );
+		border-top-color: #05066a;
 	}
 
 	.menu-item-has-children.focus>.sub-menu,
@@ -942,7 +942,7 @@ textarea:focus {
 	}
 
 	.menu-item-has-children.current-menu-item>a:after {
-		border-top-color: var( --wpgc-color-dark-blue );
+		border-top-color: #05066a;
 	}
 }
 
@@ -970,7 +970,7 @@ textarea:focus {
 		width: .125rem;
 		height: 1rem;
 		transform: rotate(90deg);
-		background-color: var( --wpgc-color-dark-blue );
+		background-color: #05066a;
 		content: "";
 	}
 
@@ -995,19 +995,19 @@ textarea:focus {
 	.sub-menu .menu-item {
 		width: 100%;
 		margin: 0;
-		border-top: 1px solid var( --wpgc-color-dark-blue );
+		border-top: 1px solid #05066a;
 		text-align: left;
 	}
 
 	.sub-menu li.focus>a,
 		.sub-menu li:hover>a {
 		color: var( --wpgc-color-dark-white  );
-		background-color: var( --wpgc-color-dark-blue );
+		background-color: #05066a;
 	}
 
 	.sub-menu a {
 		padding: .625rem 1rem;
-		color: var( --wpgc-color-dark-blue );
+		color: #05066a;
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
 	}
@@ -1138,7 +1138,7 @@ a.more-link {
 }
 
 .entry-title a:hover {
-	color: var( --wpgc-color-dark-blue );
+	color: #05066a;
 	text-decoration: underline;
 }
 
@@ -1243,7 +1243,7 @@ a.more-link {
 /* 6.1 Comments Section
 ======================================*/
 .comments-area {
-	border-top: 2px solid var( --wpgc-color-dark-blue );
+	border-top: 2px solid #05066a;
 	margin-bottom: 1.6875rem;
 	padding: 1rem;
 	display: none !important;
@@ -1284,14 +1284,14 @@ a.more-link {
 }
 
 .commentlist li {
-	border-bottom: 1px solid var( --wpgc-color-dark-blue );
+	border-bottom: 1px solid #05066a;
 	margin: 0 0 1.6875rem;
 	padding: 0 0 1.6875rem;
 }
 
 .commentlist li li {
 	border-bottom: 0 none;
-	border-top: 1px solid var( --wpgc-color-dark-blue );
+	border-top: 1px solid #05066a;
 	margin: 1.6875rem 0 0 1.5rem;
 	padding: 1.6875rem 0 0;
 }
@@ -1344,7 +1344,7 @@ a.more-link {
 }
 
 .post-navigation .nav-previous a:hover,.post-navigation .nav-next a:hover {
-	color: var( --wpgc-color-dark-blue );
+	color: #05066a;
 }
 
 .post-navigation .nav-previous {
