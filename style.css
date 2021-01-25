@@ -343,8 +343,7 @@ template {
 /* =============================
 Variables
 ============================= */
-html {
-	/* using html to avoid root conflicts */
+:root {
 	--wpgc-color-dark-blue: #05066a;
 	--wpgc-color-medium-blue: #1b1982;
 	--wpgc-color-light-blue: #8585c6;
