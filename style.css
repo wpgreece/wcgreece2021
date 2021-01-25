@@ -1,17 +1,7 @@
-/* Variables */
-:root {
-	--global-color-dark-blue: #05066a;
-	--global-color-medium-blue: #1b1982;
-	--global-color-light-blue: #8585c6;
-	--global-color-teal: #66c7c2;
-	--global-color-yellow: #ffcf6e;
-	--global-color-red: #ffb0a3;
-	--global-color-black: #1b1b1b;
-}
-
 /* =============================
 - TOC
 -- Reset
+-- Variables
 -- Base CSS
 -- Typography
 -- General
@@ -351,6 +341,19 @@ template {
 }
 
 /* =============================
+Variables
+============================= */
+:root {
+	--wpgc-color-dark-blue: #05066a;
+	--wpgc-color-medium-blue: #1b1982;
+	--wpgc-color-light-blue: #8585c6;
+	--wpgc-color-teal: #66c7c2;
+	--wpgc-color-yellow: #ffcf6e;
+	--wpgc-color-red: #ffb0a3;
+	--wpgc-color-black: #1b1b1b;
+}
+
+/* =============================
 Base CSS
 ============================= */
 
@@ -358,8 +361,8 @@ Base CSS
 Typography
 ============================= */
 body {
-	background: var( --global-color-light-blue );
-	color: var( --global-color-black );
+	background: var( --wpgc-color-light-blue );
+	color: var( --wpgc-color-black );
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
@@ -463,12 +466,12 @@ a {
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 	outline: none;
-	color: var( --global-color-dark-blue );
+	color: var( --wpgc-color-dark-blue );
 	text-decoration: none;
 }
 
 a:hover, a:focus {
-	color: var( --global-color-medium-blue );
+	color: var( --wpgc-color-medium-blue );
 	outline: none;
 	text-decoration: underline;
 }
