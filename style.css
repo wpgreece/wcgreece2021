@@ -860,7 +860,6 @@ textarea:focus {
 		display: inline-block;
 		line-height: 1.33333em;
 		text-align: center;
-		height: 45px;
 	}
 }
 
@@ -920,14 +919,14 @@ textarea:focus {
 	}
 
 	.menu-item-has-children.focus>a,
-		.menu-item-has-children:hover>a {
+	.menu-item-has-children:hover>a {
 		color: #ffffff;
 		background-color: #05066a;
 	}
 
 	.menu-item-has-children.focus>a:after,
-		.menu-item-has-children:hover>a:after {
-		border-top-color: #05066a;
+	.menu-item-has-children:hover>a:after {
+		border-top-color: #ffffff;
 	}
 
 	.menu-item-has-children.focus>.sub-menu,
