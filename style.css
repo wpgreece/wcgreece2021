@@ -625,7 +625,7 @@ a.btn.primary-btn:hover,
 input[type='submit']:hover,
 button[type='submit']:hover {
 	background-color: rgba(14,99,216,1);
-	color: rgba(255,255,255,1);
+	color: var( --wpgc-color-dark-white  );
 	text-decoration: none;
 }
 
@@ -690,7 +690,7 @@ textarea:focus {
 }
 
 .main-navigation {
-	background: rgba(255,255,255,1);
+	background: var( --wpgc-color-dark-white  );
 	top: 0;
 	position: fixed;
 	text-align: center;
@@ -708,15 +708,15 @@ textarea:focus {
 	text-align: center;
 	letter-spacing: .05em;
 	border-radius: 0;
-	color: rgba(19,51,166,1);
-	background-color: rgba(255,255,255,1);
+	color: var( --wpgc-color-dark-blue );
+	background-color: var( --wpgc-color-dark-white  );
 	cursor: pointer;
 	-moz-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 	z-index: 900;
-	border-bottom: 2px solid rgba(19,51,166,1);
+	border-bottom: 2px solid var( --wpgc-color-dark-blue );
 	position: absolute;
 	top: 0;
 }
@@ -725,8 +725,8 @@ textarea:focus {
 .menu-toggle:active,
 .menu-toggle:focus,
 .menu-toggle:hover {
-	color: rgba(255,255,255,1);
-	background-color: rgba(19,51,166,1);
+	color: var( --wpgc-color-dark-white  );
+	background-color: var( --wpgc-color-dark-blue );
 }
 
 .menu-toggle:before {
@@ -746,22 +746,22 @@ textarea:focus {
 	top: .25rem;
 	border: .375rem solid transparent;
 	margin-left: .5rem;
-	border-top-color: rgba(19,51,166,1);
+	border-top-color: var( --wpgc-color-dark-blue );
 	content: "";
 }
 
 .menu-toggle:hover:after {
-	border-top-color: rgba(255,255,255,1);
+	border-top-color: var( --wpgc-color-dark-white  );
 }
 
 .menu-toggle[aria-expanded=true] {
-	color: rgba(19,51,166,1);
+	color: var( --wpgc-color-dark-blue );
 }
 
 .menu-toggle[aria-expanded=true]:after {
 	top: -.25rem;
 	border-top-color: transparent;
-	border-bottom-color: rgba(19,51,166,1);
+	border-bottom-color: var( --wpgc-color-dark-blue );
 }
 
 @media (min-width:37.5em) {
@@ -772,7 +772,7 @@ textarea:focus {
 
 @media (max-width:47.9375em) {
 	.main-navigation {
-		background-color: rgba(255,255,255,1);
+		background-color: var( --wpgc-color-dark-white  );
 	}
 
 	.main-navigation.toggled-on .menu {
@@ -787,7 +787,7 @@ textarea:focus {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: rgba(255,255,255,1);
+	background-color: var( --wpgc-color-dark-white  );
 	position: relative;
 	z-index: 900;
 }
@@ -891,8 +891,8 @@ textarea:focus {
 }
 
 .current-menu-item>a, .sub-menu li.current-menu-item a {
-	color: rgba(255,255,255,1);
-	background-color: rgba(19,51,166,1);
+	color: var( --wpgc-color-dark-white  );
+	background-color: var( --wpgc-color-dark-blue );
 }
 
 .sub-menu
@@ -910,7 +910,7 @@ textarea:focus {
 		bottom: -.125rem;
 		border: .25rem solid transparent;
 		left: .5rem;
-		border-top-color: rgba(19,51,166,1);
+		border-top-color: var( --wpgc-color-dark-blue );
 		content: "";
 	}
 
@@ -921,13 +921,13 @@ textarea:focus {
 
 	.menu-item-has-children.focus>a,
 		.menu-item-has-children:hover>a {
-		color: rgba(255,255,255,1);
-		background-color: rgba(19,51,166,1);
+		color: var( --wpgc-color-dark-white  );
+		background-color: var( --wpgc-color-dark-blue );
 	}
 
 	.menu-item-has-children.focus>a:after,
 		.menu-item-has-children:hover>a:after {
-		border-top-color: rgba(19,51,166,1);
+		border-top-color: var( --wpgc-color-dark-blue );
 	}
 
 	.menu-item-has-children.focus>.sub-menu,
@@ -942,7 +942,7 @@ textarea:focus {
 	}
 
 	.menu-item-has-children.current-menu-item>a:after {
-		border-top-color: rgba(19,51,166,1);
+		border-top-color: var( --wpgc-color-dark-blue );
 	}
 }
 
@@ -970,12 +970,12 @@ textarea:focus {
 		width: .125rem;
 		height: 1rem;
 		transform: rotate(90deg);
-		background-color: rgba(19,51,166,1);
+		background-color: var( --wpgc-color-dark-blue );
 		content: "";
 	}
 
 	.sub-menu a:hover:before {
-		background-color: rgba(255,255,255,1);
+		background-color: var( --wpgc-color-dark-white  );
 	}
 }
 
@@ -986,7 +986,7 @@ textarea:focus {
 		left: -999em;
 		z-index: 310;
 		min-width: 16.25rem;
-		background-color: rgba(255,255,255,1);
+		background-color: var( --wpgc-color-dark-white  );
 		-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
 		-moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
 		box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
@@ -995,19 +995,19 @@ textarea:focus {
 	.sub-menu .menu-item {
 		width: 100%;
 		margin: 0;
-		border-top: 1px solid rgba(19,51,166,1);
+		border-top: 1px solid var( --wpgc-color-dark-blue );
 		text-align: left;
 	}
 
 	.sub-menu li.focus>a,
 		.sub-menu li:hover>a {
-		color: rgba(255,255,255,1);
-		background-color: rgba(19,51,166,1);
+		color: var( --wpgc-color-dark-white  );
+		background-color: var( --wpgc-color-dark-blue );
 	}
 
 	.sub-menu a {
 		padding: .625rem 1rem;
-		color: rgba(19,51,166,1);
+		color: var( --wpgc-color-dark-blue );
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
 	}
@@ -1138,7 +1138,7 @@ a.more-link {
 }
 
 .entry-title a:hover {
-	color: rgba(19,51,166,1);
+	color: var( --wpgc-color-dark-blue );
 	text-decoration: underline;
 }
 
@@ -1243,7 +1243,7 @@ a.more-link {
 /* 6.1 Comments Section
 ======================================*/
 .comments-area {
-	border-top: 2px solid rgba(19,51,166,1);
+	border-top: 2px solid var( --wpgc-color-dark-blue );
 	margin-bottom: 1.6875rem;
 	padding: 1rem;
 	display: none !important;
@@ -1284,14 +1284,14 @@ a.more-link {
 }
 
 .commentlist li {
-	border-bottom: 1px solid rgba(19,51,166,1);
+	border-bottom: 1px solid var( --wpgc-color-dark-blue );
 	margin: 0 0 1.6875rem;
 	padding: 0 0 1.6875rem;
 }
 
 .commentlist li li {
 	border-bottom: 0 none;
-	border-top: 1px solid rgba(19,51,166,1);
+	border-top: 1px solid var( --wpgc-color-dark-blue );
 	margin: 1.6875rem 0 0 1.5rem;
 	padding: 1.6875rem 0 0;
 }
@@ -1302,7 +1302,7 @@ a.more-link {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	color: rgba(255,255,255,1);
+	color: var( --wpgc-color-dark-white  );
 	cursor: pointer;
 	display: inline-block;
 	font-size: .75em;
@@ -1317,7 +1317,7 @@ a.more-link {
 
 .comment-reply-link:hover {
 	background: rgba(14,99,216,1);
-	color: rgba(255,255,255,1);
+	color: var( --wpgc-color-dark-white  );
 }
 
 .comment-reply-title {
@@ -1344,7 +1344,7 @@ a.more-link {
 }
 
 .post-navigation .nav-previous a:hover,.post-navigation .nav-next a:hover {
-	color: rgba(19,51,166,1);
+	color: var( --wpgc-color-dark-blue );
 }
 
 .post-navigation .nav-previous {
@@ -1665,7 +1665,7 @@ body.home #footer-widget-3 {
 
 .site-info .site-info-generator {
 	background: url('https://2020.athens.wordcamp.org/files/2020/02/logo_site_info.png') 50% 0 no-repeat;
-	color: rgba(255,255,255,1);
+	color: var( --wpgc-color-dark-white  );
 	display: block;
 	padding-top: 16px;
 	padding-left: 183px;
@@ -1774,7 +1774,7 @@ div.sharedaddy a.sd-button {
 	opacity: 1;
 	padding: 4px 10px !important;
 	padding: .4rem 1rem !important;
-	color: rgba(255,255,255,1) !important;
+	color: var( --wpgc-color-dark-white  ) !important;
 	text-transform: uppercase;
 }
 
@@ -1786,7 +1786,7 @@ li.share-email a.sb-button > span,
 li.share-email a.sd-button > span,
 li.share-jetpack-whatsapp a.sd-button > span {
 	border: none !important;
-	color: rgba(255,255,255,1) !important;
+	color: var( --wpgc-color-dark-white  ) !important;
 	font-weight: 300;
 	letter-spacing: 0;
 	text-transform: uppercase;
@@ -1848,7 +1848,7 @@ li.share-jetpack-whatsapp a.sd-button:hover > span {
 }
 
 .sd-content .sd-button span.share-count {
-	color: rgba(255,255,255,1) !important;
+	color: var( --wpgc-color-dark-white  ) !important;
 	font-size: 100% !important;
 }
 
@@ -2006,7 +2006,7 @@ button, a.btn-sm {
 	padding: 10px;
 	text-align: center;
 	background: rgba(66,159,253,1);
-	color: rgba(255,255,255,1);
+	color: var( --wpgc-color-dark-white  );
 }
 
 .budget td {
