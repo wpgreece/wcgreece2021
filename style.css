@@ -351,6 +351,7 @@ Variables
 	--wpgc-color-yellow: #ffcf6e;
 	--wpgc-color-red: #ffb0a3;
 	--wpgc-color-black: #1b1b1b;
+	--wpgc-color-dark-white: #ffffff;
 }
 
 /* =============================
@@ -684,11 +685,6 @@ textarea:focus {
 ----------------------------------------*/
 /* 3.1 Desktop Nav Menu
 ========================================*/
-#menu-item-353 a {
-	color: rgba(255,255,255,1);
-	background-color: rgba(68,142,246,1);
-}
-
 .assistive-text {
 	display: none;
 }
@@ -870,7 +866,6 @@ textarea:focus {
 
 .menu-item a {
 	display: block;
-	color: rgba(19,51,166,1);
 	padding: .5rem 1rem;
 	text-decoration: none;
 }
@@ -879,8 +874,8 @@ textarea:focus {
 .menu-item a:active,
 .menu-item a:focus,
 .menu-item a:hover {
-	color: rgba(255,255,255,1);
-	background-color: rgba(19,51,166,1);
+	color: var( --wpgc-color-dark-white );
+	background-color: var( --wpgc-color-dark-blue );
 }
 
 @media (min-width:37.5em) {
