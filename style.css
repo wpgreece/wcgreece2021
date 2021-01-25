@@ -515,10 +515,6 @@ body.page-id-148 #primary {
 /* =============================
 Header Logo
 ============================= */
-.home .site-header {
-	height: 80vh;
-}
-
 .site-header {
 	text-align: center;
 }
@@ -531,10 +527,10 @@ Header Logo
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-background-size: 85% auto;
-	-moz-background-size: 85% auto;
-	background-size: 85% auto;
-	background-position: 0 center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	background-position: center;
 }
 
 .site-description {
