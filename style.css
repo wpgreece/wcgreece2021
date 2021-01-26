@@ -25,6 +25,9 @@ Color Reference
 
 /* =============================
 Font
+Titles - weight: 800;
+Buttons, links - weight: 600;
+Text, weight: 400;
 ============================= */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
 
@@ -644,7 +647,7 @@ h1,h2,h3,h4 {
 	margin-bottom: 1.5rem;
 	margin-top: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 800;
 	line-height: 1;
 	text-transform: uppercase;
 }
@@ -734,7 +737,7 @@ select {
 	font-size: 1em;
 	line-height: 1.5625em;
 	color: #1b1b1b;
-	font-weight: 700;
+	font-weight: 400;
 	background-color: #fff;
 	border-radius: .1875rem;
 	cursor: pointer;
@@ -777,7 +780,7 @@ p {
 }
 
 strong {
-	font-weight: 700;
+	font-weight: 600;
 	color: rgba(0,0,0,.75);
 }
 
@@ -1023,7 +1026,7 @@ pre code {
 }
 
 .cc__title {
-	font-weight: 700;
+	font-weight: 600;
 	font-family: monospace;
 }
 
@@ -1066,7 +1069,7 @@ pre code {
 	text-align: center;
 	color: #05066a;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	text-decoration: none;
 	background-color: #66c7c2;
 	border-radius: .1875rem;
@@ -1175,7 +1178,7 @@ pre code {
 	width: 100%;
 	font-size: 0;
 	line-height: 24px;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: .05em;
@@ -1309,7 +1312,7 @@ pre code {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
 	text-align: left;
 }
 
@@ -1797,7 +1800,7 @@ div#content:after {
 	margin-right: 0;
 	margin-bottom: .125rem;
 	color: rgba(29,36,42,.9);
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 18px;
 	line-height: 1.25em;
 	background: none;
@@ -1874,7 +1877,7 @@ article.comment-body {
 
 .comment-author .fn {
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .comment-author .says {
@@ -2007,7 +2010,7 @@ article.comment-body {
 }
 
 .tix_tickets_table .tix-column-price,.tix_tickets_table .tix-column-quantity,.tix_tickets_table .tix-column-remaining {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 #tix-coupon-container {
@@ -2150,7 +2153,7 @@ div.googlemaps iframe {
 .wcpt-schedule .wcpt-time {
 	font-size: 1em;
 	line-height: 1.25em;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 	color: rgba(29,36,42,.9);
 }
@@ -2160,7 +2163,7 @@ div.googlemaps iframe {
 	margin-bottom: .5rem;
 	font-size: 1.25em;
 	line-height: 1.25em;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .wcpt-schedule .global-session.afternoon-break .wcpt-session-title,.wcpt-schedule .global-session.break .wcpt-session-title,.wcpt-schedule .global-session.lunch .wcpt-session-title,.wcpt-schedule .global-session.morning-break .wcpt-session-title,.wcpt-schedule .global-session.registration .wcpt-session-title {
@@ -2214,7 +2217,7 @@ div.googlemaps iframe {
 		margin: -.5rem -1rem .5rem;
 		border: none;
 		color: rgba(29,36,42,.9);
-		font-weight: 700;
+		font-weight: 600;
 		background-color: #f5ebe0 !important;
 	}
 
@@ -3096,7 +3099,7 @@ div.googlemaps iframe {
 	line-height: 20px;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 600;
 	transform: rotate(-5deg);
 }
 
@@ -3358,7 +3361,7 @@ div.googlemaps iframe {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.25em;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -3519,7 +3522,7 @@ img.emoji,img.wp-smiley {
 	line-height: 1.5;
 	color: rgba(0,0,0,.9);
 	text-transform: none;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .kss-sidebar {
@@ -3598,7 +3601,7 @@ img.emoji,img.wp-smiley {
 	font-size: 1rem;
 	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	color: #444;
 	text-transform: none;
 }
@@ -3629,7 +3632,7 @@ img.emoji,img.wp-smiley {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 	color: rgba(0,0,0,.9);
 	border-left: 4px solid #ff9505;
@@ -3654,7 +3657,7 @@ img.emoji,img.wp-smiley {
 
 .kss-section .kss-modifier__default-name,.kss-section .kss-modifier__name {
 	margin-right: .625rem;
-	font-weight: 700;
+	font-weight: 600;
 	color: rgba(0,0,0,.9);
 }
 
@@ -3732,7 +3735,7 @@ img.emoji,img.wp-smiley {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .kss-nav__menu li li {
@@ -3779,7 +3782,7 @@ img.emoji,img.wp-smiley {
 	font-size: 18px;
 	font-size: 1.125rem;
 	line-height: 1.5;
-	font-weight: 700;
+	font-weight: 600;
 	color: #ff0;
 }
 
