@@ -1477,6 +1477,11 @@ pre code {
 	text-align: center;
 }
 
+#footer-widget-1 a:hover,
+#footer-widget-2 a:hover {
+	text-decoration: none;
+}
+
 #footer-widget-1 .widget_text {
 	background: unset;
 }
