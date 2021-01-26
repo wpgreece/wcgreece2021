@@ -1471,11 +1471,14 @@ pre code {
 }
 
 #colophon {
-	max-width: 50rem;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 3rem;
 	text-align: center;
+}
+
+.footer-widget-1 {
+	background: #1B1982;
 }
 
 .site-info-generator {
