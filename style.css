@@ -1293,7 +1293,7 @@ pre code {
 	transition: all .1s ease;
 }
 
-.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover {
+.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover, .menu-item-has-children a:hover {
 	color: #fff;
 	background-color: #05066a;
 }
