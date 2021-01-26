@@ -80,11 +80,11 @@ CampSite 2017 Default CSS
 }
 
 .cc--var-color-text:after {
-	background-color: rgba(29,36,42,.75);
+	background-color: #1b1b1b;
 }
 
 .cc--var-color-text .cc__variable:after {
-	content: "rgba(29,36,42,.75)";
+	content: "#1b1b1b";
 }
 
 .cc--var-color-text-weak:after {
@@ -584,7 +584,7 @@ body {
 	font-size: 1em;
 	line-height: 1.5625em;
 	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 	background: #fff;
 	font-feature-settings: liga;
 }
@@ -665,7 +665,7 @@ input:not([type]),input[type=color],input[type=date],input[type=datetime-local],
 	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 	background-color: #fff;
 	box-shadow: inset 0 .125rem 0 0 #fefbf6;
 	border-radius: .1875rem;
@@ -704,7 +704,7 @@ select {
 	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 	font-weight: 700;
 	background-color: #fff;
 	border-radius: .1875rem;
@@ -732,7 +732,7 @@ p {
 	margin-bottom: 1.5rem;
 	font-size: 1em;
 	line-height: 1.5625em;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 }
 
 @media (min-width:37.5em) {
@@ -790,7 +790,9 @@ blockquote {
 	margin: 0;
 	margin-bottom: 1.5rem;
 	padding: 2em;
-	background-color: #1b1982;
+	background-color: #fff;
+	border-top: 1px solid #1b1982;
+	border-bottom: 1px solid #1b1982;
 }
 
 blockquote p {
@@ -847,7 +849,7 @@ code,pre {
 	font-size: 14px;
 	font-size: .875rem;
 	line-height: 1.5;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 	font-family: Bitstream Vera Sans Mono, Consolas, Courier, monospace;
 	direction: ltr;
 	text-align: left;
@@ -1078,7 +1080,7 @@ pre code {
 }
 
 .button.button--invert,button.button--invert,input[type=button].button--invert,input[type=reset].button--invert,input[type=submit].button--invert {
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 	background-color: #fff;
 }
 
@@ -2067,7 +2069,7 @@ article.comment-body {
 }
 
 .tix_tickets_table thead th {
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 }
 
 .tix_tickets_table td,.tix_tickets_table th {
@@ -2095,7 +2097,7 @@ article.comment-body {
 .tix_tickets_table .tix-ticket-excerpt {
 	display: block;
 	margin-top: .25rem;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 }
 
 .tix_tickets_table .tix-column-price,.tix_tickets_table .tix-column-quantity,.tix_tickets_table .tix-column-remaining {
@@ -2269,7 +2271,7 @@ div.googlemaps iframe {
 }
 
 .wcpt-schedule .wcpt-session-speakers a {
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 }
 
 .wcpt-schedule .global-session.afternoon-break,.wcpt-schedule .global-session.break,.wcpt-schedule .global-session.lunch,.wcpt-schedule .global-session.morning-break,.wcpt-schedule .global-session.registration {
@@ -3013,7 +3015,7 @@ div.googlemaps iframe {
 
 .jetpack_subscription_widget input[type=submit] {
 	width: 100%;
-	color: rgba(29,36,42,.75);
+	color: #1b1b1b;
 	text-transform: uppercase;
 	background-color: #c96;
 }
