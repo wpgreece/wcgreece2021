@@ -1053,7 +1053,7 @@ pre code {
 .button,button,input[type=button],input[type=reset],input[type=submit] {
 	position: relative;
 	display: inline-block;
-	padding: .4375rem 1rem;
+	padding: 1rem 1rem;
 	border: 1px solid #66c7c2;
 	font-size: 1em;
 	line-height: 1.5625em;
