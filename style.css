@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
 /* =============================
 - TOC
 -- Color Reference
@@ -602,7 +604,7 @@ textarea {
 body {
 	font-size: 1em;
 	line-height: 1.5625em;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #1b1b1b;
 	background: #6968BB url( 'https://greece.wordcamp.org/2021/files/2021/01/Wordcamp-greece-web-background-1080-transparent.png' );
 	background-size: 100%;
@@ -680,13 +682,13 @@ fieldset {
 input:not([type]),input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],textarea {
 	display: block;
 	width: 100%;
-	padding: .4375rem 1rem;
+	padding: 1rem 1rem;
 	margin: 0;
 	border: 1px solid #d5d4d5;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
-	color: #1b1b1b;
+	color: #05066a;
 	background-color: #fff;
 	box-shadow: inset 0 .125rem 0 0 #fefbf6;
 	border-radius: .1875rem;
@@ -722,7 +724,7 @@ select {
 	width: 100%;
 	padding: .4375rem 1rem;
 	border: 1px solid #d5d4d5;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
 	color: #1b1b1b;
@@ -1057,7 +1059,7 @@ pre code {
 	line-height: 1.5625em;
 	text-align: center;
 	color: #05066a;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	background-color: #66c7c2;
@@ -1389,7 +1391,7 @@ pre code {
 .sub-menu .menu-item {
 	text-transform: none;
 	font-weight: 400;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .sub-menu .current-menu-item a {
@@ -2131,7 +2133,7 @@ div.googlemaps iframe {
 	font-size: 1em;
 	line-height: 1.25em;
 	font-weight: 700;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: rgba(29,36,42,.9);
 }
 
