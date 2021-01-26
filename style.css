@@ -1148,48 +1148,7 @@ pre code {
 }
 
 .site-title {
-	margin: 0;
-	font-size: 1.5625em;
-	line-height: 1;
-	font-family: mostra-nuova-alt-d, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: hsla(0,0%,100%,.9);
-}
-
-.site-title a {
-	display: block;
-	color: #1b1982;
-}
-
-.site-title a:active,.site-title a:focus,.site-title a:hover {
-	color: #1b1982;
-	text-decoration: none;
-}
-
-.site-title a:before {
-	display: block;
-	width: 180px;
-	height: 180px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1rem;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-image: url('https://2017.europe.wordcamp.org/files/2017/03/logo-wceu17-symbol.png');
-	background-size: 100%;
-	content: "";
-}
-
-.site-description {
-	margin: 0;
-	margin-top: .5rem;
-	font-size: 1em;
-	line-height: 1.25em;
-	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-	font-weight: 400;
-	text-transform: none;
-	color: hsla(0,0%,100%,.6);
+	display: none;
 }
 
 .site-header {
@@ -3912,10 +3871,6 @@ img.emoji,img.wp-smiley {
 	margin-top: 0;
 }
 
-
-.custom-logo-link {
-	display: none;
-}
 
 .menu {
 	background-color: white;
