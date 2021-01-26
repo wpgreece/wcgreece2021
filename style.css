@@ -1212,8 +1212,11 @@ pre code {
 }
 
 .main-navigation {
-	position: relative;
-	background-color: rgba(0,0,0,.2);
+	background-color: white;
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	width: 100%;
 }
 
 @media (max-width:37.4375em) {
@@ -3736,13 +3739,4 @@ img.emoji,img.wp-smiley {
 
 .kss-text>h1:first-child,.kss-text>h2:first-child,.kss-text>h3:first-child,.kss-text>h4:first-child {
 	margin-top: 0;
-}
-
-
-.menu {
-	background-color: white;
-	position: fixed;
-	top: 0;
-	margin: 0 auto;
-	width: 100%;
 }
