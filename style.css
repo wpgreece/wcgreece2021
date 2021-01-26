@@ -1321,11 +1321,13 @@ pre code {
 	letter-spacing: .05em;
 	border-radius: 0;
 	cursor: pointer;
+	position: fixed;
+	top: 0;
 }
 
 .menu-toggle,.menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
 	color: #05066a;
-	background-color: rgba(45,40,45,.9);
+	background-color: #fff;
 }
 
 .menu-toggle:before {
@@ -1349,7 +1351,7 @@ pre code {
 }
 
 .menu-toggle[aria-expanded=true] {
-	color: #c96;
+	color: #05066a;
 }
 
 .menu-toggle[aria-expanded=true]:after {
