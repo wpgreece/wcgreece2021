@@ -1223,6 +1223,7 @@ pre code {
 	top: 0;
 	margin: 0 auto;
 	width: 100%;
+	z-index: 99;
 }
 
 @media (max-width:37.4375em) {
@@ -1262,6 +1263,16 @@ pre code {
 	.toggled-on .menu {
 		display: block;
 	}
+	ul#primary-menu {
+		margin-top: 50px;
+	}
+	.menu-item a {
+		color: #ffffff;
+	}
+	.menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover {
+		color: #05066a;
+		background-color: #fff;
+	}
 }
 
 .menu-item {
@@ -1279,7 +1290,7 @@ pre code {
 	.menu-item {
 		margin: 0 .0625rem;
 		display: inline-block;
-		font-size: .8rem;
+		font-size: .95rem;
 		line-height: 1.33333em;
 		text-align: center;
 	}
@@ -1406,7 +1417,7 @@ pre code {
 	.sub-menu .menu-item {
 		width: 100%;
 		margin: 0;
-		border-top: 1px solid hsla(0,0%,100%,.2);
+		border-top: 1px solid #05066a;
 		text-align: left;
 	}
 
