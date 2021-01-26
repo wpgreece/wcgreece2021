@@ -1499,6 +1499,17 @@ pre code {
 #footer-widget-2 input,
 #footer-widget-2 button {
 	border-radius: 0;
+	border: 0;
+}
+
+#footer-widget-2 button {
+	background: #ffcf6e;
+	color: #05066a;
+	font-weight: 600;
+}
+
+#footer-widget-2 button:hover {
+	background: #fff;
 }
 
 #footer-widget-2 .jetpack_subscription_widget #subscribe-email,
