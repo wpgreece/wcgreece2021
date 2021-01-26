@@ -1477,8 +1477,10 @@ pre code {
 	text-align: center;
 }
 
-#footer-widget-1 {
+#footer-widget-1,
+#footer-widget-2 {
 	background: #1B1982;
+	color: #fff;
 }
 
 .site-info-generator {
