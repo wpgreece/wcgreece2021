@@ -48,11 +48,11 @@ CampSite 2017 Default CSS
 }
 
 .cc--var-local-gold:after {
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 .cc--var-local-gold .cc__variable:after {
-	content: "#448ef6";
+	content: "#e6aa50";
 }
 
 .cc--var-local-linnen:after {
@@ -144,11 +144,11 @@ CampSite 2017 Default CSS
 }
 
 .cc--var-color-link-hover:after {
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 .cc--var-color-link-hover .cc__variable:after {
-	content: "#448ef6";
+	content: "#e6aa50";
 }
 
 .cc--var-color-link-visited:after {
@@ -603,12 +603,12 @@ body {
 
 ::-moz-selection {
 	color: #fff;
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 ::selection {
 	color: #fff;
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 h1,h2,h3,h4 {
@@ -718,12 +718,12 @@ a {
 }
 
 a:focus,a:hover {
-	color: #448ef6;
+	color: #e6aa50;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #448ef6;
+	color: #e6aa50;
 	text-decoration: none;
 }
 
@@ -1046,7 +1046,7 @@ pre code {
 
 .button:active,.button:focus,.button:hover,button:active,button:focus,button:hover,input[type=button]:active,input[type=button]:focus,input[type=button]:hover,input[type=reset]:active,input[type=reset]:focus,input[type=reset]:hover,input[type=submit]:active,input[type=submit]:focus,input[type=submit]:hover {
 	color: rgba(29,36,42,.9);
-	background-color: #448ef6;
+	background-color: #e6aa50;
 	text-decoration: none;
 }
 
@@ -1064,7 +1064,7 @@ pre code {
 
 .button.button--primary:active,.button.button--primary:focus,.button.button--primary:hover,button.button--primary:active,button.button--primary:focus,button.button--primary:hover,input[type=button].button--primary:active,input[type=button].button--primary:focus,input[type=button].button--primary:hover,input[type=reset].button--primary:active,input[type=reset].button--primary:focus,input[type=reset].button--primary:hover,input[type=submit].button--primary:active,input[type=submit].button--primary:focus,input[type=submit].button--primary:hover {
 	color: rgba(29,36,42,.9);
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 .button.button--secondary,button.button--secondary,input[type=button].button--secondary,input[type=reset].button--secondary,input[type=submit].button--secondary {
@@ -1143,7 +1143,7 @@ pre code {
 
 .site-title a {
 	display: block;
-	color: #448ef6;
+	color: #e6aa50;
 }
 
 .site-title a:active,.site-title a:focus,.site-title a:hover {
@@ -1322,7 +1322,7 @@ pre code {
 }
 
 .menu-toggle,.menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
-	color: #448ef6;
+	color: #e6aa50;
 	background-color: rgba(45,40,45,.9);
 }
 
@@ -1342,7 +1342,7 @@ pre code {
 	top: -.125rem;
 	border: .375rem solid transparent;
 	margin-left: .5rem;
-	border-top-color: #448ef6;
+	border-top-color: #e6aa50;
 	content: "";
 }
 
@@ -1352,7 +1352,7 @@ pre code {
 
 .menu-toggle[aria-expanded=true]:after {
 	border-top-color: transparent;
-	border-bottom-color: #448ef6;
+	border-bottom-color: #e6aa50;
 }
 
 @media (min-width:37.5em) {
@@ -1372,7 +1372,7 @@ pre code {
 	left: 0;
 	right: 0;
 	height: .125rem;
-	background-color: #448ef6;
+	background-color: #e6aa50;
 	content: "";
 }
 
@@ -1443,7 +1443,7 @@ pre code {
 
 .menu-item a {
 	display: block;
-	color: #448ef6;
+	color: #e6aa50;
 	padding: .5rem 1rem;
 	text-decoration: none;
 	transition: all .1s ease;
@@ -1468,7 +1468,7 @@ pre code {
 
 .current-menu-item>a {
 	color: rgba(29,36,42,.9);
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 .menu-item-has-children {
@@ -1491,7 +1491,7 @@ pre code {
 		border: .375rem solid transparent;
 		margin-left: .5rem;
 		vertical-align: middle;
-		border-top-color: #448ef6;
+		border-top-color: #e6aa50;
 		content: "";
 	}
 
@@ -1864,7 +1864,7 @@ pre code {
 	margin: 0;
 	width: 3rem;
 	height: 3rem;
-	border: .125rem solid #448ef6;
+	border: .125rem solid #e6aa50;
 	background-color: #fff;
 	transition: all .15s ease;
 }
@@ -2436,7 +2436,7 @@ div.googlemaps iframe {
 .wcb-session-big-design-troubles-in-open-source:after,.wcb-session-new-to-theme-design-heres-what-you-should-know:after,.wcb-session-night-of-the-living-style-guides:after,.wcb-session-the-three-kinds-of-design:after {
 	display: inline-block;
 	padding: .0625rem .375rem;
-	border: 2px solid #448ef6;
+	border: 2px solid #e6aa50;
 	position: absolute;
 	bottom: 1rem;
 	font-size: .8em;
@@ -3019,7 +3019,7 @@ div.googlemaps iframe {
 
 .jetpack_subscription_widget input[type=submit]:active,.jetpack_subscription_widget input[type=submit]:focus,.jetpack_subscription_widget input[type=submit]:hover {
 	color: rgba(29,36,42,.9);
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 .jetpack_subscription_widget #subscribe-text {
@@ -3243,7 +3243,7 @@ div.googlemaps iframe {
 	left: 10px;
 	bottom: 10px;
 	right: 0;
-	color: #448ef6;
+	color: #e6aa50;
 	color: #c96;
 }
 
@@ -3272,7 +3272,7 @@ div.googlemaps iframe {
 }
 
 .realistic-ticket:focus .realistic-ticket__info-action,.realistic-ticket:hover .realistic-ticket__info-action {
-	color: #448ef6;
+	color: #e6aa50;
 }
 
 .page-slug-sponsors #content {
@@ -3468,7 +3468,7 @@ div.googlemaps iframe {
 
 .nav-anchor a:focus,.nav-anchor a:hover {
 	color: rgba(29,36,42,.9);
-	background-color: #448ef6;
+	background-color: #e6aa50;
 }
 
 .u-text-center {
@@ -3893,7 +3893,6 @@ img.emoji,img.wp-smiley {
 	margin-top: 0;
 }
 
-/*WordPress Online Greece */
 
 .custom-logo-link {
 	display: none;
@@ -3902,7 +3901,9 @@ img.emoji,img.wp-smiley {
 	display: none;
 }
 .menu {
-	display: flex;
-	justify-content: center;
 	background-color: white;
+	position: fixed;
+	top: 32px;
+	margin: 0 auto;
+	width: 100%;
 }
