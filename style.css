@@ -3892,3 +3892,17 @@ img.emoji,img.wp-smiley {
 .kss-text>h1:first-child,.kss-text>h2:first-child,.kss-text>h3:first-child,.kss-text>h4:first-child {
 	margin-top: 0;
 }
+
+/*WordPress Online Greece */
+
+.custom-logo-link {
+	display: none;
+}
+.site-branding {
+	display: none;
+}
+.menu {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
