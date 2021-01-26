@@ -1287,6 +1287,11 @@ pre code {
 		color: #05066a;
 		background-color: #fff;
 	}
+	.current-menu-item a {
+		background: #fff;
+		color: #05066a !important;
+	}
+
 }
 
 .menu-item {
