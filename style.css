@@ -1496,6 +1496,11 @@ pre code {
 	background: #1B1982;
 }
 
+#footer-widget-2 input,
+#footer-widget-2 button {
+	border-radius: 0;
+}
+
 #footer-widget-2 .jetpack_subscription_widget #subscribe-email,
 #footer-widget-2 .jetpack_subscription_widget #subscribe-submit {
 	width: unset;
