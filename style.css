@@ -1477,8 +1477,8 @@ pre code {
 	text-align: center;
 }
 
-#footer-widget-1 {
-
+#footer-widget-1 .widget_text {
+	background: unset;
 }
 
 #footer-widget-1 h2 {
