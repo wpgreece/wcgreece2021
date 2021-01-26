@@ -1,6 +1,7 @@
 /* =============================
 - TOC
 -- Color Reference
+-- WP Admin Bar Fix & Edit Link
 -- CampSite 2017 Default CSS
 ============================= */
 
@@ -20,7 +21,7 @@ Color Reference
 */
 
 /* =============================
-WP Admin Bar Fix
+WP Admin Bar Fix & Edit Link
 ============================= */
 .logged-in.admin-bar #wpadminbar {
 	width: 36px;
@@ -31,6 +32,10 @@ WP Admin Bar Fix
 .logged-in.admin-bar #wpadminbar:hover {
 	width: 100%;
 	overflow: unset;
+}
+
+.edit-link {
+	display: none;
 }
 
 /* =============================
