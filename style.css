@@ -1552,11 +1552,12 @@ div#content:after {
 	background-repeat: no-repeat;
 	background-size: contain;
 	content: '';
-	margin-top: -68px;
+	margin-top: -2px;
 	margin-left: 0;
 	display: inline-block;
 	width: 800px;
 	height: 70px;
+	transform: rotate(180deg);
 }
 
 #after-header-widgets,#before-content-widgets,#secondary {
