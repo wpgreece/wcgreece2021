@@ -1269,8 +1269,7 @@ pre code {
 	.menu-item {
 		margin: 0 .0625rem;
 		display: inline-block;
-		font-size: 18px;
-		font-size: 1.125rem;
+		font-size: .8rem;
 		line-height: 1.33333em;
 		text-align: center;
 	}
