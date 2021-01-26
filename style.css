@@ -1494,6 +1494,13 @@ pre code {
 	margin-right: auto;
 }
 
+div#content:before {
+	content: url( 'https://greece.wordcamp.org/2021/files/2021/01/blob-up-left.png' );
+	position: absolute;
+	margin-top: -75px;
+	margin-left: 0;
+}
+
 #after-header-widgets,#before-content-widgets,#secondary {
 	max-width: 50rem;
 	margin-left: auto;
