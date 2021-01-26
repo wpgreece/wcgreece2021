@@ -1119,6 +1119,12 @@ pre code {
 	text-align: center;
 }
 
+.site-header .site-branding img.custom-logo {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
 @media (min-width:37.5em) {
 	.site-header .site-branding {
 		padding: 3rem 2rem;
