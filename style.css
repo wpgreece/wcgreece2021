@@ -1534,18 +1534,29 @@ pre code {
 }
 
 #content:before {
-	content: url( 'https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece-Website-Elements_Curve.png' );
+	background-image: url( 'https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece-Website-Elements_Curve.png' );
 	position: absolute;
-	margin-top: -75px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	margin-top: -68px;
 	margin-left: 0;
+	display: inline-block;
+	width: 800px;
+	height: 70px;
 }
 
 div#content:after {
-	content: url( 'https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece-Website-Elements_Curve.png' );
+	background-image: url( 'https://greece.wordcamp.org/2021/files/2021/01/WordCamp-Greece-Website-Elements_Curve.png' );
 	position: absolute;
-	margin-top: -3px;
-	margin-left: 537px;
-	border-radius: 15px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: '';
+	margin-top: -68px;
+	margin-left: 0;
+	display: inline-block;
+	width: 800px;
+	height: 70px;
 }
 
 #after-header-widgets,#before-content-widgets,#secondary {
