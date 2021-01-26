@@ -1108,10 +1108,6 @@ pre code {
 	background-color: #eee;
 }
 
-.site-header {
-	background-color: #fff;
-}
-
 .site-header .site-branding {
 	position: relative;
 	overflow: hidden;
@@ -1219,21 +1215,7 @@ pre code {
 	background-color: rgba(0,0,0,.2);
 }
 
-.main-navigation:before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: .125rem;
-	background-color: #05066a;
-	content: "";
-}
-
 @media (max-width:37.4375em) {
-	.main-navigation {
-		background-color: #2d282d;
-	}
-
 	.main-navigation.toggled-on .menu {
 		display: block;
 	}
