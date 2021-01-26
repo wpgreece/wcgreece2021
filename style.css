@@ -1506,7 +1506,7 @@ pre code {
 }
 
 #content:before {
-	content: url( 'https://greece.wordcamp.org/2021/files/2021/01/blob-bottom-right.png' );
+	content: url( 'https://greece.wordcamp.org/2021/files/2021/01/blob-up-left.png' );
 	position: absolute;
 	margin-top: -75px;
 	margin-left: 0;
