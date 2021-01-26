@@ -753,7 +753,7 @@ a {
 	color: #1b1982;
 	text-decoration: none;
 	transition: all .15s ease;
-	weight: 600;
+	font-weight: 600;
 }
 
 a:focus,a:hover {
