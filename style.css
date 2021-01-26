@@ -1248,6 +1248,19 @@ pre code {
 	clear: both;
 }
 
+.menu-item a {
+	display: block;
+	color: #05066a;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	transition: all .1s ease;
+}
+
+.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover, .menu-item-has-children a:hover {
+	color: #fff;
+	background-color: #05066a;
+}
+
 @media (min-width:37.5em) {
 	.menu {
 		display: block;
@@ -1268,6 +1281,7 @@ pre code {
 	}
 	.menu-item a {
 		color: #ffffff;
+		background-color: #05066a;
 	}
 	.menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover {
 		color: #05066a;
@@ -1296,18 +1310,6 @@ pre code {
 	}
 }
 
-.menu-item a {
-	display: block;
-	color: #05066a;
-	padding: .5rem 1rem;
-	text-decoration: none;
-	transition: all .1s ease;
-}
-
-.menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover, .menu-item-has-children a:hover {
-	color: #fff;
-	background-color: #05066a;
-}
 
 @media (min-width:48em) {
 	.menu-item a {
