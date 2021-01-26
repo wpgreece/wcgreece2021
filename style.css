@@ -1609,6 +1609,10 @@ div#content:after {
 	clear: both;
 }
 
+.entry-image {
+	display: none;
+}
+
 .entry-content {
 }
 
