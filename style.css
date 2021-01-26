@@ -1487,7 +1487,8 @@ pre code {
 }
 
 #footer-widget-1 h2,
-#footer-widget-2 h2 {
+#footer-widget-2 h2,
+#footer-widget-2 .jetpack_subscription_widget p {
 	color: #fff;
 }
 
