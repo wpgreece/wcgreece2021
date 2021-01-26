@@ -1492,9 +1492,10 @@ pre code {
 	max-width: 50rem;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 5px;
 }
 
-div#content:before {
+#content:before {
 	content: url( 'https://greece.wordcamp.org/2021/files/2021/01/blob-up-left.png' );
 	position: absolute;
 	margin-top: -75px;
