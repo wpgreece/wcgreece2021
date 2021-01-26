@@ -7,7 +7,7 @@
 /* =============================
 Color Reference
 ============================= */
-/* :root {
+/*
 	Dark Blue: #05066a;
 	Medium Blue: #1b1982;
 	Purple: #8585c6;
@@ -16,8 +16,22 @@ Color Reference
 	Red: #ffb0a3;
 	Black: #1b1b1b;
 	White: #ffffff;
-} */
+}
+*/
 
+/* =============================
+WP Admin Bar Fix
+============================= */
+.logged-in.admin-bar #wpadminbar {
+	width: 36px;
+	overflow: hidden;
+	min-width: unset;
+}
+
+.logged-in.admin-bar #wpadminbar:hover {
+	width: 100%;
+	overflow: unset;
+}
 
 /* =============================
 CampSite 2017 Default CSS
