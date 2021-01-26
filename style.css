@@ -1374,6 +1374,10 @@ pre code {
 	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
+.sub-menu .current-menu-item {
+	color: #ffffff;
+}
+
 @media (max-width:37.4375em) {
 	.sub-menu a {
 		padding-left: 2.5rem;
