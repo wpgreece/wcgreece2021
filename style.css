@@ -1374,7 +1374,7 @@ pre code {
 	font-family: ingra, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
-.sub-menu .current-menu-item {
+.sub-menu .current-menu-item a {
 	color: #ffffff;
 }
 
@@ -1413,6 +1413,10 @@ pre code {
 	.sub-menu a {
 		padding: .625rem 1rem;
 		color: #05066a;
+	}
+
+	.sub-menu .current-menu-item a {
+		color: #ffffff;
 	}
 }
 
