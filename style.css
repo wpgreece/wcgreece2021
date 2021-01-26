@@ -37,6 +37,10 @@ WP Admin Bar Fix
 CampSite 2017 Default CSS
 ============================= */
 
+.home article .entry-header {
+	display: none;
+}
+
 .cc--var-local-thunder:after {
 	background-color: #2d282d;
 }
