@@ -18,7 +18,7 @@ Color Reference
 	Teal: #66c7c2;
 	Yellow: #ffcf6e;
 	Red: #ffb0a3;
-	Black: #1b1b1b;
+	Black: #2A2A2B;
 	White: #ffffff;
 }
 */
@@ -110,11 +110,11 @@ CampSite 2017 Default CSS
 }
 
 .cc--var-color-text:after {
-	background-color: #1b1b1b;
+	background-color: #2A2A2B;
 }
 
 .cc--var-color-text .cc__variable:after {
-	content: "#1b1b1b";
+	content: "#2A2A2B";
 }
 
 .cc--var-color-text-weak:after {
@@ -614,7 +614,7 @@ body {
 	font-size: 1em;
 	line-height: 1.5625em;
 	font-family: 'Open Sans', sans-serif;
-	color: #1b1b1b;
+	color: #2A2A2B;
 	background: #6968BB url( 'https://greece.wordcamp.org/2021/files/2021/01/Wordcamp-greece-web-background-1080-transparent.png' );
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -736,7 +736,7 @@ select {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	line-height: 1.5625em;
-	color: #1b1b1b;
+	color: #2A2A2B;
 	font-weight: 400;
 	background-color: #fff;
 	border-radius: .1875rem;
@@ -764,7 +764,7 @@ p {
 	margin-bottom: 1.5rem;
 	font-size: 1em;
 	line-height: 1.5625em;
-	color: #1b1b1b;
+	color: #2A2A2B;
 }
 
 @media (min-width:37.5em) {
@@ -881,7 +881,7 @@ code,pre {
 	font-size: 14px;
 	font-size: .875rem;
 	line-height: 1.5;
-	color: #1b1b1b;
+	color: #2A2A2B;
 	font-family: 'Open Sans', sans-serif;
 	direction: ltr;
 	text-align: left;
@@ -1112,7 +1112,7 @@ pre code {
 }
 
 .button.button--invert,button.button--invert,input[type=button].button--invert,input[type=reset].button--invert,input[type=submit].button--invert {
-	color: #1b1b1b;
+	color: #2A2A2B;
 	background-color: #fff;
 }
 
@@ -1978,7 +1978,7 @@ article.comment-body {
 }
 
 .tix_tickets_table thead th {
-	color: #1b1b1b;
+	color: #2A2A2B;
 }
 
 .tix_tickets_table td,.tix_tickets_table th {
@@ -2006,7 +2006,7 @@ article.comment-body {
 .tix_tickets_table .tix-ticket-excerpt {
 	display: block;
 	margin-top: .25rem;
-	color: #1b1b1b;
+	color: #2A2A2B;
 }
 
 .tix_tickets_table .tix-column-price,.tix_tickets_table .tix-column-quantity,.tix_tickets_table .tix-column-remaining {
@@ -2180,7 +2180,7 @@ div.googlemaps iframe {
 }
 
 .wcpt-schedule .wcpt-session-speakers a {
-	color: #1b1b1b;
+	color: #2A2A2B;
 }
 
 .wcpt-schedule .global-session.afternoon-break,.wcpt-schedule .global-session.break,.wcpt-schedule .global-session.lunch,.wcpt-schedule .global-session.morning-break,.wcpt-schedule .global-session.registration {
@@ -2924,7 +2924,7 @@ div.googlemaps iframe {
 
 .jetpack_subscription_widget input[type=submit] {
 	width: 100%;
-	color: #1b1b1b;
+	color: #2A2A2B;
 	text-transform: uppercase;
 	background-color: #c96;
 }
