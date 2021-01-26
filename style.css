@@ -18,7 +18,7 @@ Color Reference
 	Yellow: #ffcf6e;
 	Red: #ffb0a3;
 	Black: #1b1b1b;
-	White: #ffffff;
+	White: #E5E5E5;
 }
 */
 
@@ -625,12 +625,12 @@ body {
 }
 
 ::-moz-selection {
-	color: #fff;
+	color: #E5E5E5;
 	background-color: #05066a;
 }
 
 ::selection {
-	color: #fff;
+	color: #E5E5E5;
 	background-color: #05066a;
 }
 
@@ -689,7 +689,7 @@ input:not([type]),input[type=color],input[type=date],input[type=datetime-local],
 	font-size: 1em;
 	line-height: 1.5625em;
 	color: #05066a;
-	background-color: #fff;
+	background-color: #E5E5E5;
 	box-shadow: inset 0 .125rem 0 0 #fefbf6;
 	border-radius: .1875rem;
 	transition: all .1s ease;
@@ -729,7 +729,7 @@ select {
 	line-height: 1.5625em;
 	color: #1b1b1b;
 	font-weight: 700;
-	background-color: #fff;
+	background-color: #E5E5E5;
 	border-radius: .1875rem;
 	cursor: pointer;
 }
@@ -813,7 +813,7 @@ blockquote {
 	margin: 0;
 	margin-bottom: 1.5rem;
 	padding: 2em;
-	background-color: #fff;
+	background-color: #E5E5E5;
 	border-top: 1px solid #1b1982;
 	border-bottom: 1px solid #1b1982;
 }
@@ -895,7 +895,7 @@ pre {
 
 code {
 	padding: .125rem .1875rem;
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 pre code {
@@ -1070,7 +1070,7 @@ pre code {
 }
 
 .button:active,.button:focus,.button:hover,button:active,button:focus,button:hover,input[type=button]:active,input[type=button]:focus,input[type=button]:hover,input[type=reset]:active,input[type=reset]:focus,input[type=reset]:hover,input[type=submit]:active,input[type=submit]:focus,input[type=submit]:hover {
-	color: #fff;
+	color: #E5E5E5;
 	background-color: #1b1982;
 	text-decoration: none;
 }
@@ -1098,13 +1098,13 @@ pre code {
 }
 
 .button.button--secondary:active,.button.button--secondary:focus,.button.button--secondary:hover,button.button--secondary:active,button.button--secondary:focus,button.button--secondary:hover,input[type=button].button--secondary:active,input[type=button].button--secondary:focus,input[type=button].button--secondary:hover,input[type=reset].button--secondary:active,input[type=reset].button--secondary:focus,input[type=reset].button--secondary:hover,input[type=submit].button--secondary:active,input[type=submit].button--secondary:focus,input[type=submit].button--secondary:hover {
-	color: #fff;
+	color: #E5E5E5;
 	background-color: #05066a;
 }
 
 .button.button--invert,button.button--invert,input[type=button].button--invert,input[type=reset].button--invert,input[type=submit].button--invert {
 	color: #1b1b1b;
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 .button.button--invert:active,.button.button--invert:focus,.button.button--invert:hover,button.button--invert:active,button.button--invert:focus,button.button--invert:hover,input[type=button].button--invert:active,input[type=button].button--invert:focus,input[type=button].button--invert:hover,input[type=reset].button--invert:active,input[type=reset].button--invert:focus,input[type=reset].button--invert:hover,input[type=submit].button--invert:active,input[type=submit].button--invert:focus,input[type=submit].button--invert:hover {
@@ -1181,7 +1181,7 @@ pre code {
 
 .menu-toggle,.menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
 	color: #05066a;
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 .menu-toggle:before {
@@ -1259,7 +1259,7 @@ pre code {
 }
 
 .menu-item a.focus,.menu-item a:active,.menu-item a:focus,.menu-item a:hover, .menu-item-has-children a:hover {
-	color: #fff;
+	color: #E5E5E5;
 	background-color: #05066a;
 }
 
@@ -1282,12 +1282,12 @@ pre code {
 		margin-top: 50px;
 	}
 	.menu-item a {
-		color: #ffffff;
+		color: #E5E5E5;
 		background-color: #05066a;
 	}
 	.menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover {
 		color: #05066a;
-		background-color: #fff;
+		background-color: #E5E5E5;
 	}
 	.current-menu-item a {
 		background: #fff !important;
@@ -1331,7 +1331,7 @@ pre code {
 }
 
 .current-menu-item>a {
-	color: #fff;
+	color: #E5E5E5;
 	background-color: #05066a;
 }
 
@@ -1366,7 +1366,7 @@ pre code {
 
 	.menu-item-has-children.focus>a,.menu-item-has-children:hover>a {
 		color:#05066a;
-		background-color: #fff;
+		background-color: #E5E5E5;
 	}
 
 	.menu-item-has-children.focus>a:after,.menu-item-has-children:hover>a:after {
@@ -1395,7 +1395,7 @@ pre code {
 }
 
 .sub-menu .current-menu-item a {
-	color: #ffffff;
+	color: #E5E5E5;
 }
 
 @media (max-width:37.4375em) {
@@ -1419,7 +1419,7 @@ pre code {
 		left: -999em;
 		z-index: 310;
 		min-width: 16.25rem;
-		background-color: #fff;
+		background-color: #E5E5E5;
 		color: #05066a;
 	}
 
@@ -1436,7 +1436,7 @@ pre code {
 	}
 
 	.sub-menu .current-menu-item a {
-		color: #ffffff;
+		color: #E5E5E5;
 	}
 }
 
@@ -1478,7 +1478,7 @@ pre code {
 	height: 3.75rem;
 	margin: 0 auto;
 	margin-bottom: 1.5rem;
-	color: #fff;
+	color: #E5E5E5;
 	text-indent: -9999px;
 	background-image: url('https://europe.wordcamp.org/2016/files/2015/11/wordpress-footer-logo.png');
 	background-position: 50%;
@@ -1525,7 +1525,7 @@ pre code {
 }
 
 #content {
-	background: #fff;
+	background: #E5E5E5;
 	max-width: 50rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -1756,7 +1756,7 @@ div#content:after {
 	width: 3rem;
 	height: 3rem;
 	border: .125rem solid #05066a;
-	background-color: #fff;
+	background-color: #E5E5E5;
 	transition: all .15s ease;
 }
 
@@ -1898,7 +1898,7 @@ article.comment-body {
 
 .comment-respond {
 	padding: 1.5rem;
-	background-color: #fff;
+	background-color: #E5E5E5;
 	background-color: #e8e9ea;
 	border-radius: .1875rem;
 }
@@ -2103,7 +2103,7 @@ div.googlemaps iframe {
 .wcpt-schedule {
 	border: .25rem solid #c96;
 	margin-bottom: 1.5rem;
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 .wcpt-schedule td,.wcpt-schedule th {
@@ -2259,7 +2259,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Development";
 }
 
@@ -2284,7 +2284,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Business";
 }
 
@@ -2309,7 +2309,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Community";
 }
 
@@ -2334,7 +2334,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Design";
 }
 
@@ -2359,7 +2359,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Community";
 }
 
@@ -2384,7 +2384,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Development";
 }
 
@@ -2409,7 +2409,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Design";
 }
 
@@ -2434,7 +2434,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Business";
 }
 
@@ -2459,7 +2459,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Content";
 }
 
@@ -2484,7 +2484,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Development for Beginners";
 }
 
@@ -2509,7 +2509,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Running a local WP community";
 }
 
@@ -2534,7 +2534,7 @@ div.googlemaps iframe {
 	line-height: 1.25em;
 	color: rgba(29,36,42,.9);
 	border-radius: .625rem;
-	background: #fff;
+	background: #E5E5E5;
 	content: "Running a WordPress agency";
 }
 
@@ -2669,7 +2669,7 @@ div.googlemaps iframe {
 	}
 
 	.wcorg-sponsors>div h2:after {
-		border-color: #fff;
+		border-color: #E5E5E5;
 		width: 16em;
 		z-index: -1;
 	}
@@ -2691,7 +2691,7 @@ div.googlemaps iframe {
 }
 
 .wcorg-sponsor a {
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 .wcorg-sponsor a img {
@@ -2869,7 +2869,7 @@ div.googlemaps iframe {
 }
 
 .widget_text {
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 .widget_text:before {
@@ -3036,7 +3036,7 @@ div.googlemaps iframe {
 }
 
 #text-5 {
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 #text-3:before,#text-4:before {
@@ -3278,7 +3278,7 @@ div.googlemaps iframe {
 
 .content-widgets-block {
 	position: relative;
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 .content-widgets-block:before {
@@ -3398,7 +3398,7 @@ img.emoji,img.wp-smiley {
 .skip-link {
 	padding: .25em .5em;
 	color: rgba(29,36,42,.9);
-	background-color: #fff;
+	background-color: #E5E5E5;
 	border-radius: .1875rem;
 	box-shadow: 0 .0625rem .1875rem 0 rgba(0,0,0,.2);
 	position: absolute;
@@ -3539,7 +3539,7 @@ img.emoji,img.wp-smiley {
 	padding: 1rem;
 	overflow: hidden;
 	border-bottom: 1px solid rgba(0,0,0,.1);
-	background-color: #fff;
+	background-color: #E5E5E5;
 }
 
 @media (min-width:37.5em) {
@@ -3752,7 +3752,7 @@ img.emoji,img.wp-smiley {
 .action-styleguide:active,.action-styleguide:focus,.action-styleguide:hover {
 	border: none;
 	background: #000;
-	color: #fff;
+	color: #E5E5E5;
 	text-decoration: none;
 }
 
