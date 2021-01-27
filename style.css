@@ -1628,6 +1628,13 @@ div#content:after {
 	transform: rotate(180deg);
 }
 
+/* Content Mobile */
+@media (max-width:37.5em) {
+	#content {
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+}
 #after-header-widgets,#before-content-widgets,#secondary {
 	max-width: 50rem;
 	margin-left: auto;
