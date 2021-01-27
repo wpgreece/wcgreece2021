@@ -1132,6 +1132,10 @@ pre code {
 	color: rgba(0,0,0,.3);
 	background-color: #eee;
 }
+/* Contact Form Buttons */
+button.wp-block-button__link.has-background {
+	color: #1b1982;
+}
 
 .site-header .site-branding {
 	position: relative;
