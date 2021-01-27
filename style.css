@@ -1358,6 +1358,11 @@ button.wp-block-button__link.has-background {
 	color: #fff;
 	background-color: #05066a;
 }
+@media (min-width:37.5em) {
+	.menu-item-has-children a:hover, .menu-item-has-children a.focus, .menu-item-has-children a:active, .menu-item-has-children a:focus  {
+	background: #05066a !important;
+	color: #fff !important;
+}}
 
 .menu-item-has-children {
 	background-color: #05066a;
