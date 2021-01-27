@@ -1629,6 +1629,10 @@ div#content:after {
 	transform: rotate(180deg);
 }
 
+#content .english-anchor {
+	margin-bottom: 2.5em;
+}
+
 /* Content Mobile */
 @media (max-width:37.5em) {
 	#content {
