@@ -1244,6 +1244,10 @@ pre code {
 	z-index: 99;
 }
 
+.main-navigation .hide-me {
+	display: none !important;
+}
+
 @media (max-width:37.4375em) {
 	.main-navigation.toggled-on .menu {
 		display: block;
