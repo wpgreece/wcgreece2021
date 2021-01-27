@@ -1409,6 +1409,9 @@ button.wp-block-button__link.has-background {
 	.menu-item-has-children.current-menu-item>a:after {
 		border-top-color: #05066a;
 	}
+	.menu-item-has-children>a:hover::after {
+		border-top-color: #fff;
+	}
 }
 
 .sub-menu {
