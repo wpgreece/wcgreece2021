@@ -3886,3 +3886,43 @@ img.emoji,img.wp-smiley {
 .kss-text>h1:first-child,.kss-text>h2:first-child,.kss-text>h3:first-child,.kss-text>h4:first-child {
 	margin-top: 0;
 }
+
+/* Cookies */
+#eu-cookie-law input, #eu-cookie-law input:focus, #eu-cookie-law input:hover {
+	background: #05066a !important;
+	border: 1px solid #05066a !important;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: white !important;
+	cursor: pointer;
+	display: inline;
+	float: right;
+	font-family: inherit;
+	position: static;
+	text-transform: none;
+	margin: 20px 0 !important;
+}
+
+#eu-cookie-law {
+	background-color: #fff;
+	border: 1px solid #05066a !important;
+	color: #000000 !important;
+	font-size: 15px !important;
+	line-height: 1.6 !important;
+	overflow: hidden;
+	padding: 6px 15px 6px 15px;
+	position: relative;
+}
+
+@media (min-width:37.5em) {
+.widget_eu_cookie_law_widget {
+	width: 50% !important;
+}
+
+	#eu-cookie-law input.accept {
+		bottom: -11px;
+		position: absolute;
+		right: 8px;
+	}
+}
