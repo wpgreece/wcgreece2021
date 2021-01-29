@@ -3914,13 +3914,13 @@ img.emoji,img.wp-smiley {
 	padding: 6px 15px 6px 15px;
 	position: relative;
 }
-
-#eu-cookie-law input.accept {
-	bottom: -11px !important;
-	position: absolute !important;
-	right: 8px !important;
+@media (max-width:37.4em) {
+	#eu-cookie-law input.accept {
+		bottom: -11px !important;
+		position: absolute !important;
+		right: 8px !important;
+	}
 }
-
 @media (min-width:37.5em) {
 .widget_eu_cookie_law_widget {
 	width: 50% !important;
