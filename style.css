@@ -3915,14 +3915,14 @@ img.emoji,img.wp-smiley {
 	position: relative;
 }
 
+#eu-cookie-law input.accept {
+	bottom: -11px !important;
+	position: absolute !important;
+	right: 8px !important;
+}
+
 @media (min-width:37.5em) {
 .widget_eu_cookie_law_widget {
 	width: 50% !important;
 }
-
-	#eu-cookie-law input.accept {
-		bottom: -11px !important;
-		position: absolute !important;
-		right: 8px !important;
-	}
 }
