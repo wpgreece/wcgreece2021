@@ -3921,8 +3921,8 @@ img.emoji,img.wp-smiley {
 }
 
 	#eu-cookie-law input.accept {
-		bottom: -11px;
-		position: absolute;
-		right: 8px;
+		bottom: -11px !important;
+		position: absolute !important;
+		right: 8px !important;
 	}
 }
