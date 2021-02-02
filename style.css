@@ -1362,7 +1362,11 @@ button.wp-block-button__link.has-background {
 	.menu-item-has-children a:hover, .menu-item-has-children a.focus, .menu-item-has-children a:active, .menu-item-has-children a:focus  {
 	background: #05066a !important;
 	color: #fff !important;
-}}
+	}
+	.current-menu-parent>a{background: #05066a !important;
+		color: #fff !important;}
+	.current-menu-parent a::after{border-top-color: #fff !important;}
+}
 
 .menu-item-has-children {
 	background-color: #05066a;
