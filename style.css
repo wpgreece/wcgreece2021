@@ -3915,6 +3915,10 @@ img.emoji,img.wp-smiley {
 /* =============================
 Header widgets
 ============================= */
+#header-widgets {
+	margin-bottom: 200px;
+}
+
 #header-widgets .widget_text {
 	background: unset;
 	padding: 0;
