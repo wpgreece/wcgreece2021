@@ -3945,3 +3945,6 @@ Header widgets
 	text-align: center;
 	color: #1b1982;
 }
+#header-widgets .head-bubbles .child a {
+	font-weight: 700;
+}
