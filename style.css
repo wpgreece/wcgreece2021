@@ -3933,6 +3933,20 @@ Header widgets
 	text-align: center;
 	color: #555;
 }
+
 #header-widgets .head-bubbles .child a {
 	font-weight: 700;
+}
+
+#header-widgets .head-bubbles:after {
+	content: "";
+	background: url( 'https://greece.wordcamp.org/2021/files/2021/02/homepage-tabs.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 162px;
+	position: absolute;
+	bottom: -80px;
+	left: -220px;
+	z-index: -10;
 }
