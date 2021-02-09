@@ -1496,6 +1496,14 @@ button.wp-block-button__link.has-background {
 	text-align: center;
 }
 
+#footer-widget-1 {
+	background: linear-gradient(0deg, rgba(122,194,200,1) 0%, rgba(133,133,198,1) 100%);
+}
+
+#footer-widget-1 .widget-text {
+	background: unset;
+}
+
 #footer-widget-2 a:hover,
 #footer-widget-3 a:hover {
 	text-decoration: none;
