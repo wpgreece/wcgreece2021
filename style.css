@@ -1494,43 +1494,43 @@ button.wp-block-button__link.has-background {
 	text-align: center;
 }
 
-#footer-widget-1 a:hover,
-#footer-widget-2 a:hover {
+#footer-widget-2 a:hover,
+#footer-widget-3 a:hover {
 	text-decoration: none;
 }
 
-#footer-widget-1 .widget_text {
+#footer-widget-2 .widget_text {
 	background: unset;
 }
 
-#footer-widget-1 h2,
 #footer-widget-2 h2,
-#footer-widget-2 .jetpack_subscription_widget p {
+#footer-widget-3 h2,
+#footer-widget-3 .jetpack_subscription_widget p {
 	color: #fff;
 }
 
-#footer-widget-2 {
+#footer-widget-3 {
 	background: #1B1982;
 }
 
-#footer-widget-2 input,
-#footer-widget-2 button {
+#footer-widget-3 input,
+#footer-widget-3 button {
 	border-radius: 0;
 	border: 0;
 }
 
-#footer-widget-2 button {
+#footer-widget-3 button {
 	background: #ffcf6e;
 	color: #05066a;
 	font-weight: 600;
 }
 
-#footer-widget-2 button:hover {
+#footer-widget-3 button:hover {
 	background: #fff;
 }
 
-#footer-widget-2 .jetpack_subscription_widget #subscribe-email,
-#footer-widget-2 .jetpack_subscription_widget #subscribe-submit {
+#footer-widget-3 .jetpack_subscription_widget #subscribe-email,
+#footer-widget-3 .jetpack_subscription_widget #subscribe-submit {
 	width: unset;
 	margin: 0;
 }
