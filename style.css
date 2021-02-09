@@ -3918,3 +3918,8 @@ Header widgets
 #header-widgets .widget_text {
 	background: unset;
 }
+
+#header-widgets .head-bubbles {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
