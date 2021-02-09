@@ -3903,6 +3903,10 @@ img.emoji,img.wp-smiley {
 /* =============================
 Header widgets
 ============================= */
+body:not(.home) #header-widgets {
+	display: none;
+}
+
 #header-widgets {
 	margin-bottom: 200px;
 }
