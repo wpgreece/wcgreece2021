@@ -1500,7 +1500,7 @@ button.wp-block-button__link.has-background {
 	background: linear-gradient(0deg, rgba(122,194,200,1) 0%, rgba(133,133,198,1) 100%);
 }
 
-#footer-widget-1 .widget-text {
+#footer-widget-1 .widget_text {
 	background: unset;
 }
 
