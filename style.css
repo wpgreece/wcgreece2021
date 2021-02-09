@@ -55,6 +55,15 @@ WP Admin Bar Fix & Edit Link
 }
 
 /* =============================
+TEMP DISPLAY CHEATS FOR
+PREVIEWING & ADDING CHANGES
+============================== */
+body:not(.logged-in) #header-widgets {
+	display: none;
+}
+
+
+/* =============================
 CampSite 2017 Default CSS
 ============================= */
 
