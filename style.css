@@ -3917,9 +3917,19 @@ Header widgets
 ============================= */
 #header-widgets .widget_text {
 	background: unset;
+	padding: 0;
 }
 
 #header-widgets .head-bubbles {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+#header-widgets .head-bubbles .child {
+	background: url( 'https://greece.wordcamp.org/2021/files/2021/02/homepage-one-tab.png' );
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
 }
