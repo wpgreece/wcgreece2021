@@ -61,7 +61,9 @@ PREVIEWING & ADDING CHANGES
 /* body:not(.logged-in) #header-widgets {
 	display: none;
 } */
-
+body:not(.logged-in) #footer-widget-1 {
+	display: none;
+}
 
 /* =============================
 CampSite 2017 Default CSS
