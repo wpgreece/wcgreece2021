@@ -3943,7 +3943,7 @@ Header widgets
 	display: flex;
 	font-weight: 700;
 	text-align: center;
-	color: #1b1982;
+	color: #555;
 }
 #header-widgets .head-bubbles .child a {
 	font-weight: 700;
