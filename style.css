@@ -4074,6 +4074,7 @@ body.page-id-856 .first-group-xorigoi:before {
 	z-index: -1;
 	position: absolute;
 	width:100%;
+	content: "";
 }
 
 body.page-id-856 .first-group-xorigoi h2 {
