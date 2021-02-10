@@ -4085,3 +4085,11 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image {
 	align-items: center;
 	padding: 20px;
 }
+body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
+	margin: 0;
+	padding: 0;
+	max-height: 80px;
+	max-width: 100%;
+	width: unset;
+}
+
