@@ -4043,3 +4043,10 @@ body.page-id-856 .front-block-posts {
 	max-width: 60rem;
 	margin: 50px auto;
 }
+
+body.page-id-856 .front-first-post {
+	background: #fff url(https://greece.wordcamp.org/2021/files/2021/02/teleutaio-neo-waves1.png);
+	background-position: bottom right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
