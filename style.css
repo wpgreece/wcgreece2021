@@ -4021,7 +4021,12 @@ body:not(.home) #header-widgets {
 New Front Page
 ============================= */
 
-body.page-id-856 .content {
+body.page-id-856 #content {
 	background: unset;
 	border-radius: unset;
+	max-width: unset;
+}
+
+body.page-id-856 #content .entry-title {
+	display: none;
 }
