@@ -4021,6 +4021,16 @@ body:not(.home) #header-widgets {
 New Front Page
 ============================= */
 
+.new-button a {
+	background: #ffcf6e;
+	color: #05066a;
+}
+
+.new-button a:hover {
+	background: #05066a;
+	color: #fff;
+}
+
 body.page-id-856 #content {
 	background: unset;
 	border-radius: unset;
