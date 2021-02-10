@@ -1513,7 +1513,7 @@ button.wp-block-button__link.has-background {
 }
 
 #footer-widget-1 .child .big {
-	font-size: 1em;
+	font-size: 4em;
 	line-height: 1em;
 	font-weight: 700;
 	display:block;
@@ -1521,7 +1521,7 @@ button.wp-block-button__link.has-background {
 }
 
 #footer-widget-1 .child .small {
-	font-size: .6em;
+	font-size: 2em;
 	line-height: 1em;
 	font-weight: 500;
 	display:block;
