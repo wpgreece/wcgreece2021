@@ -1540,6 +1540,8 @@ button.wp-block-button__link.has-background {
 	background-size: contain;
 	width: 100%;
 	clear:both;
+	background-repeat-y: no-repeat;
+	background-position-y: bottom;
 }
 
 #footer-widget-1 .camp-info {
@@ -1554,6 +1556,7 @@ button.wp-block-button__link.has-background {
 	background-size: contain;
 	width: 100%;
 	clear:both;
+	background-repeat-y: no-repeat;
 }
 
 #footer-widget-2 a:hover,
