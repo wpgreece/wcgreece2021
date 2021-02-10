@@ -4034,3 +4034,9 @@ body.page-id-856 #content .entry-title {
 body.page-id-856 .sharedaddy {
 	display: none;
 }
+
+body.page-id-856 .front-block-posts {
+	background: #fff;
+	border-radius: 50px;
+	padding: 40px;
+}
