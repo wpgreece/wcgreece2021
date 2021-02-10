@@ -1500,6 +1500,30 @@ button.wp-block-button__link.has-background {
 	background: unset;
 }
 
+#footer-widget-1 .inside {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 0 20px 0 20px;
+}
+
+#footer-widget-1 .child {
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+}
+
+#footer-widget-1 .child .big {
+	font-weight: 700;
+	clear: both;
+
+}
+
+#footer-widget-1 .child .small {
+	font-weight: 600;
+	clear: both;
+}
+
 #footer-widget-1 .widget_text {
 	background: unset;
 	padding: 0;
