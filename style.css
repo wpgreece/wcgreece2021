@@ -4074,3 +4074,8 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns {
 	max-width: 100rem;
 	margin: 1.5rem auto;
 }
+body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image {
+	background: #fff;
+	border-radius: 30px;
+	height: 120px;
+}
