@@ -1521,10 +1521,9 @@ button.wp-block-button__link.has-background {
 }
 
 #footer-widget-1 .lower-deck {
-	background: url('https://greece.wordcamp.org/2021/files/2021/02/homepage-waves-03.png;');
+	background: url('https://greece.wordcamp.org/2021/files/2021/02/homepage-waves-03.png');
 	height: 60px;
 	background-size: contain;
-	clear: both;
 	width: 100%;
 	clear:both;
 }
