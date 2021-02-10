@@ -1559,6 +1559,15 @@ button.wp-block-button__link.has-background {
 	background-repeat-y: no-repeat;
 }
 
+@media (max-width:37.5em) {
+	#footer-widget-1 .child .big {
+		font-size: 2em;
+	}
+	#footer-widget-1 .child .small {
+		font-size: 1em;
+	}
+}
+
 #footer-widget-2 a:hover,
 #footer-widget-3 a:hover {
 	text-decoration: none;
@@ -1599,6 +1608,7 @@ button.wp-block-button__link.has-background {
 	width: unset;
 	margin: 0;
 }
+
 
 .site-info {
 	margin-top: 50px;
