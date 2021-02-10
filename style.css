@@ -4060,3 +4060,10 @@ body.page-id-856 .front-first-post {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+body.page-id-856 .first-group-xorigoi h2 {
+	color:#05066a;
+	font-weight: 700;
+	margin: 3rem auto;
+	max-width: 60rem;
+}
