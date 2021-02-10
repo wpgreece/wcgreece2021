@@ -4065,6 +4065,14 @@ body.page-id-856 .first-group-xorigoi {
 	margin-top: 200px;
 	margin-bottom: 200px;
 }
+body.page-id-856 .first-group-xorigoi:before {
+	background: url(https://greece.wordcamp.org/2021/files/2021/02/sponsors-cloud.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 500px;
+	z-index: -1;
+	position: absolute;
+}
 
 body.page-id-856 .first-group-xorigoi h2 {
 	color:#05066a;
