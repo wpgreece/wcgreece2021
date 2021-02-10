@@ -4075,6 +4075,11 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns {
 	margin: 1.5rem auto;
 }
 
+body.page-id-856 .first-group-xorigoi .wp-block-columns.second-line {
+	max-width: 80rem;
+	margin: 1.5rem auto;
+}
+
 body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image {
 	background: #fff;
 	border-radius: 30px;
