@@ -4016,3 +4016,12 @@ body:not(.home) #header-widgets {
 	left: -220px;
 	z-index: -10;
 }
+
+/* =============================
+New Front Page
+============================= */
+
+body.page-id-856 .content {
+	background: unset;
+	border-radius: unset;
+}
