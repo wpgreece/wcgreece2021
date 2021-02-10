@@ -1509,19 +1509,23 @@ button.wp-block-button__link.has-background {
 
 #footer-widget-1 .child {
 	color: #fff;
-	font-size: 4rem;
 	text-align: center;
 }
 
 #footer-widget-1 .child .big {
+	font-size: 1em;
+	line-height: 1em;
 	font-weight: 700;
-	clear: both;
-
+	display:block;
+	width: 100%;
 }
 
 #footer-widget-1 .child .small {
-	font-weight: 600;
-	clear: both;
+	font-size: .6em;
+	line-height: 1em;
+	font-weight: 500;
+	display:block;
+	width: 100%;
 }
 
 #footer-widget-1 .widget_text {
