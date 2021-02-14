@@ -4139,6 +4139,33 @@ body.page-id-12 #content {
 	max-width: unset;
 }
 
+body.page-id-12 .entry-header {
+	max-width: 60rem;
+	margin: 0 auto;
+	margin-bottom: 200px;
+	margin-top: 50px;
+}
+
+body.page-id-12 .entry-title {
+	font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    max-width: 150px;
+}
+
+body.page-id-12 .entry-title::before {
+	content: "";
+	position: absolute;
+	background: url(https://greece.wordcamp.org/2021/files/2021/02/speakers-cloud.png);
+	background-size: contain;
+	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;
+	z-index: -1;
+	margin-left: -201px;
+	margin-top: -119px;
+}
+
 body.page-id-12 .sharedaddy {
 	display: none;
 }
