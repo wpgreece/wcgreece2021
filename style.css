@@ -4193,6 +4193,10 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post {
 	padding: 2em;
 }
 
+body.page-id-12 .takoulinos {
+	margin: 0;
+}
+
 body.page-id-12 .wordcamp-organizer {
 	display: grid;
 	grid-column-gap: 20px;
