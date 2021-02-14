@@ -1178,7 +1178,8 @@ button.wp-block-button__link.has-background {
 	padding: 4.5rem 3rem;
 }
 
-.site-title {
+.site-title,
+.site-description {
 	display: none;
 }
 
