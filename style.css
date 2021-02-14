@@ -4151,8 +4151,38 @@ New Organizers Page
 	padding: 2em;
 }
 
-.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .avatar {
+.page-id-12 .wordcamp-organizer {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 0;
+	grid-template-rows: [title-start] 26px [content-start] 1fr [content-end];
+	grid-template-columns: [avatar-start] 150px [content-start] 1fr [content-end];
+}
+
+.page-id-12 .wordcamp-organizers .wordcamp-post-list__post h3 {
+	grid-column-start: content-start;
+	text-align: left !important;
+	color: #05066a;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container {
+	grid-column-start: avatar-start;
+	grid-row-start: title-start;
+	margin: 0;
+	padding: 0;
+}
+
+.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container img {
 	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__item-content {
+	grid-column-start: content-start;
 }
 
 /* =============================
