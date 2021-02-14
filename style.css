@@ -4141,6 +4141,10 @@ New Organizers Page
 	background: none;
 }
 
+.page-id-12 .wordcamp-organizers {
+	padding: 0;
+}
+
 .page-id-12 .wordcamp-organizers .wordcamp-post-list__post {
 	background: #fff;
 	border-radius: 50px;
