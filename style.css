@@ -4064,8 +4064,9 @@ body.page-id-856 .front-block-posts {
 	margin: 50px auto;
 }
 
-body.page-id-856 .front-first-post {
-	background: #fff url(https://greece.wordcamp.org/2021/files/2021/02/teleutaio-neo-waves1.png);
+body.page-id-856 .front-first-post,
+body.page-id-856 .front-block-posts {
+	background: #fff url('https://greece.wordcamp.org/2021/files/2021/02/teleutaio-neo-waves1.png');
 	background-position: bottom right;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -4123,13 +4124,6 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	max-height: 80px;
 	max-width: 100%;
 	width: unset;
-}
-
-body.page-id-856 .front-block-posts {
-	background: #fff url(https://greece.wordcamp.org/2021/files/2021/02/teleutaio-neo-waves2.png);
-	background-position: bottom right;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 .hide-me {
