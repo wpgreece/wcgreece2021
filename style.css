@@ -4148,9 +4148,9 @@ body.page-id-12 .entry-header {
 
 body.page-id-12 .entry-title {
 	font-size: 1.5em;
-    line-height: 1;
-    margin-bottom: 1.5rem;
-    max-width: 150px;
+	line-height: 1;
+	margin-bottom: 1.5rem;
+	max-width: 150px;
 }
 
 body.page-id-12 .entry-title::before {
@@ -4181,6 +4181,10 @@ body.page-id-12 #content {
 
 body.page-id-12 .wordcamp-organizers {
 	padding: 0;
+}
+
+body.page-id-12 .org-info {
+	color: #fff;
 }
 
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post {
