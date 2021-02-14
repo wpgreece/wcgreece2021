@@ -4130,10 +4130,30 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	width: unset;
 }
 
-.hide-me {
-	display: none !important;
-}
-
+/* =============================
+New Organizers Page
+============================= */
 .page-id-12 .sharedaddy {
 	display: none;
+}
+
+.page-id-12 #content {
+	background: none;
+}
+
+.page-id-12 .wordcamp-organizers .wordcamp-post-list__post {
+	background: #fff;
+	border-radius: 50px;
+	padding: 2em;
+}
+
+.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .avatar {
+	border-radius: 50%;
+}
+
+/* =============================
+Helpers
+============================= */
+.hide-me {
+	display: none !important;
 }
