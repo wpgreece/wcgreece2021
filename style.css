@@ -1248,10 +1248,6 @@ button.wp-block-button__link.has-background {
 	z-index: 99;
 }
 
-.main-navigation .hide-me {
-	display: none !important;
-}
-
 @media (max-width:37.4375em) {
 	.main-navigation.toggled-on .menu {
 		display: block;
@@ -4129,3 +4125,6 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	width: unset;
 }
 
+.hide-me {
+	display: none !important;
+}
