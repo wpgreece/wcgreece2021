@@ -4143,6 +4143,11 @@ body.page-id-12 .sharedaddy {
 	display: none;
 }
 
+body.page-id-12 .entry-content {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
 body.page-id-12 #content {
 	background: none;
 }
