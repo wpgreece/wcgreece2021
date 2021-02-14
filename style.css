@@ -4125,6 +4125,13 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	width: unset;
 }
 
+body.page-id-856 .front-block-posts {
+	background: #fff url(https://greece.wordcamp.org/2021/files/2021/02/teleutaio-neo-waves2.png);
+	background-position: bottom right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .hide-me {
 	display: none !important;
 }
