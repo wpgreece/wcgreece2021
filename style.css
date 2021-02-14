@@ -1159,6 +1159,7 @@ button.wp-block-button__link.has-background {
 	width: 100%;
 	max-width: 500px;
 	margin: 0 auto;
+	padding-top: 4rem;
 }
 
 @media (min-width:37.5em) {
