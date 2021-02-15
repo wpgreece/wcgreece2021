@@ -4042,6 +4042,10 @@ New Front Page
 	color: #fff;
 }
 
+body.page-id-856 #header-widgets {
+	margin-bottom: 0px;
+}
+
 body.page-id-856 #content {
 	background: unset;
 	border-radius: unset;
