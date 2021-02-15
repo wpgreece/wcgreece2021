@@ -4261,6 +4261,11 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__
 		margin-left: -160px;
 		margin-top: -119px;
 	}
+	body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container {
+		padding-top: 5px;
+		paddint-bottom: 5px;
+		grid-row-start: 2;
+	}
 }
 
 
