@@ -4231,8 +4231,16 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__
 	grid-column-start: content-start;
 }
 @media (max-width:37.4em) {
-	body.page-id-12 .wordcamp-organizer {grid-template-columns: 1fr;
-		grid-template-rows: auto;}
+	body.page-id-12 .wordcamp-organizer {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	body.page-id-12 .entry-title::before {
+		height: 300px;
+		width: 440px;
+		margin-left: -160px;
+		margin-top: -119px;
+	}
 }
 
 
