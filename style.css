@@ -4129,7 +4129,21 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	max-width: 100%;
 	width: unset;
 }
+@media (max-width:37.4em) {
+	body.page-id-856 #header-widgets {
+		margin-bottom: 50px;
+	}
 
+	body.page-id-856 #header-widgets .head-bubbles {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+	}
+
+	#header-widgets .head-bubbles .child a, #header-widgets .head-bubbles .child {
+		font-size: 14px;
+	}
+}
 /* =============================
 New Organizers Page
 ============================= */
@@ -4230,10 +4244,12 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__item-content {
 	grid-column-start: content-start;
 }
+
 @media (max-width:37.4em) {
 	body.page-id-12 .wordcamp-organizer {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
+		grid-column-gap: 0px;
 	}
 	body.page-id-12 .entry-title::before {
 		height: 300px;
