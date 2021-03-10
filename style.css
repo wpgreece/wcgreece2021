@@ -2241,6 +2241,14 @@ article.comment-body {
 	content: "\2192";
 }
 
+body.blog article.post {
+	padding: 4.5rem 3rem;
+	background: #fff;
+	border-radius: 50px;
+	border-bottom: none;
+	margin-bottom: 3em;
+}
+
 div.googlemaps {
 	margin-bottom: 1.5rem;
 }
