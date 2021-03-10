@@ -2249,6 +2249,8 @@ body.blog article.post {
 	margin-bottom: 3em;
 }
 
+body.blog #content {
+	background: inherit;}
 div.googlemaps {
 	margin-bottom: 1.5rem;
 }
