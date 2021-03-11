@@ -1487,6 +1487,11 @@ button.wp-block-button__link.has-background {
 	}
 }
 
+.menu-item.wc-highlight {
+	background: #ffcf6e;
+	color: #05066a;
+}
+
 #colophon {
 	margin-left: auto;
 	margin-right: auto;
