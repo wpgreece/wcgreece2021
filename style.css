@@ -4283,6 +4283,17 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__
 	}
 }
 
+/* =============================
+Tickets
+============================= */
+div#tix input {
+	background-color: #ffcf6e;
+	border-radius: 50px !important;
+}
+.tix_tickets_table {
+	border-top: 3px double #ffcf6e;
+	border-bottom: 3px double #ffcf6e;
+}
 
 /* =============================
 Helpers
