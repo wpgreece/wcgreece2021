@@ -4294,30 +4294,7 @@ div#tix input {
 	border-top: 3px double #ffcf6e;
 	border-bottom: 3px double #ffcf6e;
 }
-/* =============================
-Sponsors
-============================= */
-h2.has-text-align-center.gold-heading, h2.has-text-align-center.bronze-heading {
-	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url(https://greece.wordcamp.org/2021/files/2021/03/wordcamp-athens-2019-main-room.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	text-align: center;
-	color: #fff;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
 
-h2.has-text-align-center.silver-heading, h2.has-text-align-center.small-business-heading {
-	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url(https://greece.wordcamp.org/2021/files/2021/03/wordcamp-athens-2019-21.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	text-align: center;
-	color: #fff;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
 
 /* =============================
 Helpers
