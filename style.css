@@ -4148,6 +4148,9 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	max-width: 100%;
 	width: unset;
 }
+body.page-id-856 .first-group-xorigoi img {
+	border-radius: unset;
+}
 @media (max-width:37.4em) {
 	body.page-id-856 #header-widgets {
 		margin-bottom: 50px;
