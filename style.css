@@ -1632,6 +1632,15 @@ button.wp-block-button__link.has-background {
 	font-size: 1.25em;
 }
 
+#footer-widget-4 .gold,
+#footer-widget-4 .silver,
+#footer-widget-4 .bronze,
+#footer-widget-4 .small {
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-gap: 20px;
+}
+
 .site-info {
 	margin-top: 50px;
 }
