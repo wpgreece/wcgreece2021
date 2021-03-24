@@ -1641,6 +1641,17 @@ button.wp-block-button__link.has-background {
 	grid-gap: 20px;
 }
 
+#footer-widget-4 .inner {
+	background: #fff;
+	border-radius: 30px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 20px;
+}
+
 .site-info {
 	margin-top: 50px;
 }
