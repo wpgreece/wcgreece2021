@@ -1623,6 +1623,11 @@ button.wp-block-button__link.has-background {
 	max-width: unset;
 }
 
+#footer-widget-4 h2,
+#footer-widget-4 h3 {
+	color: #fff;
+}
+
 .site-info {
 	margin-top: 50px;
 }
