@@ -4365,7 +4365,8 @@ body.page-id-1558 .wordcamp-sponsors .wordcamp-sponsors__logo {
 }
 
 body.page-id-1558 .wordcamp-sponsors .wordcamp-sponsors__logo img {
-	max-width: 250px;
+	width: auto;
+	max-height: 80px;
 	margin: 0 auto;
 }
 
