@@ -68,6 +68,10 @@ body.home #footer-widget-4 {
 	display: none !important;
 }
 
+body.page .sharedaddy {
+	display: none !important;
+}
+
 /* =============================
 CampSite 2017 Default CSS
 ============================= */
