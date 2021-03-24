@@ -4398,6 +4398,12 @@ body.page-id-1558 .entry-title::before {
 	margin-top: -119px;
 }
 
+body.page-id-1558 .entry-content h2 {
+	color: #fff;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
 body.page-id-1558 .wordcamp-sponsors .wordcamp-sponsors__logo {
 	margin-bottom: 20px;
 }
