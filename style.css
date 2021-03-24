@@ -1652,6 +1652,14 @@ button.wp-block-button__link.has-background {
 	padding: 20px;
 }
 
+#footer-widget-4 .inner img {
+	margin: 0;
+	padding: 0;
+	max-height: 100%;
+	max-width: 100%;
+	width: unset;
+}
+
 .site-info {
 	margin-top: 50px;
 }
@@ -4183,7 +4191,7 @@ body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image {
 body.page-id-856 .first-group-xorigoi .wp-block-columns .wp-block-image img {
 	margin: 0;
 	padding: 0;
-	max-height: 80px;
+	max-height: 100%;
 	max-width: 100%;
 	width: unset;
 }
