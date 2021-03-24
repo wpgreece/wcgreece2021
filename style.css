@@ -1628,6 +1628,10 @@ button.wp-block-button__link.has-background {
 	color: #fff;
 }
 
+#footer-widget-4 h3 {
+	font-size: 1.25em;
+}
+
 .site-info {
 	margin-top: 50px;
 }
