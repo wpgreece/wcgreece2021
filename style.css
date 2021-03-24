@@ -4358,6 +4358,15 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__
 }
 
 /* =============================
+Sponsors
+============================= */
+
+body.page-id-1558 .wordcamp-sponsors .wordcamp-sponsors__logo img {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+/* =============================
 Tickets
 ============================= */
 div#tix input {
