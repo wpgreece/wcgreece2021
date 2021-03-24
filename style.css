@@ -1615,6 +1615,9 @@ button.wp-block-button__link.has-background {
 	margin: 0;
 }
 
+#footer-widget-4 .widget_custom_html {
+	max-width: unset;
+}
 
 .site-info {
 	margin-top: 50px;
