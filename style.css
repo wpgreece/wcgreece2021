@@ -4404,6 +4404,7 @@ body.page-id-1558 .entry-content h2 {
 	margin-top: 20px;
 }
 
+
 body.page-id-1558 .wordcamp-sponsors .wordcamp-sponsors__logo {
 	margin-bottom: 20px;
 }
@@ -4412,6 +4413,12 @@ body.page-id-1558 .wordcamp-sponsors .wordcamp-sponsors__logo img {
 	width: auto;
 	max-height: 80px;
 	margin: 0 auto;
+}
+
+body.page-id-1558 .wordcamp-sponsors .wordcamp-post-list__post {
+	background: #fff;
+	border-radius: 50px;
+	padding: 2em;
 }
 
 /* =============================
