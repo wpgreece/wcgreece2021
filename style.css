@@ -1642,9 +1642,8 @@ button.wp-block-button__link.has-background {
 #footer-widget-4 .silver,
 #footer-widget-4 .bronze,
 #footer-widget-4 .small {
-	display: grid;
-	grid-template-columns: repeat(5,1fr);
-	grid-gap: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 #footer-widget-4 .inner {
@@ -1656,6 +1655,8 @@ button.wp-block-button__link.has-background {
 	text-align: center;
 	align-items: center;
 	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #footer-widget-4 .inner img {
