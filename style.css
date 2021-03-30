@@ -4423,6 +4423,12 @@ body.page-id-1558 .wordcamp-sponsors .wordcamp-post-list__post {
 	border-radius: 50px;
 	padding: 2em;
 }
+/* =============================
+Sponsors
+============================= */
+.wordcamp-sponsors__content a {
+	text-decoration: solid underline #1b1982 4px;
+}
 
 /* =============================
 Tickets
