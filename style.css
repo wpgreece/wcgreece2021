@@ -1646,7 +1646,7 @@ button.wp-block-button__link.has-background {
 	justify-content: center;
 }
 
-#footer-widget-4 .inner {
+#footer-widget-4 .inner > a {
 	background: #fff;
 	border-radius: 30px;
 	height: 120px;
