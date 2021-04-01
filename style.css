@@ -1667,16 +1667,16 @@ button.wp-block-button__link.has-background {
 }
 
 #footer-widget-4 .small .inner > a {
-	height: 90px;
+	height: 80px;
 }
 #footer-widget-4 .bronze .inner > a {
 	height: 100px;
 }
 #footer-widget-4 .silver .inner > a {
-	height: 130px;
+	height: 120px;
 }
 #footer-widget-4 .gold .inner > a {
-	height: 180px;
+	height: 140px;
 }
 
 @media(max-width:768px) {
