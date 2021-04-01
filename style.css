@@ -1649,7 +1649,6 @@ button.wp-block-button__link.has-background {
 #footer-widget-4 .inner > a {
 	background: #fff;
 	border-radius: 30px;
-	height: 120px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -1665,6 +1664,19 @@ button.wp-block-button__link.has-background {
 	max-height: 100%;
 	max-width: 100%;
 	width: unset;
+}
+
+#footer-widget-4 .small .inner > a {
+	height: 90px;
+}
+#footer-widget-4 .bronze .inner > a {
+	height: 100px;
+}
+#footer-widget-4 .silver .inner > a {
+	height: 130px;
+}
+#footer-widget-4 .gold .inner > a {
+	height: 180px;
 }
 
 @media(max-width:768px) {
