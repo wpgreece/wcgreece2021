@@ -4255,13 +4255,16 @@ body.page-id-856 .first-group-xorigoi img {
 }
 /* =============================
 New Organizers Page
+Sponsors Page
 ============================= */
+body.page-id-2453 #content,
 body.page-id-12 #content {
 	background: unset;
 	border-radius: unset;
 	max-width: unset;
 }
 
+body.page-id-2453 .entry-header,
 body.page-id-12 .entry-header {
 	max-width: 60rem;
 	margin: 0 auto;
@@ -4269,6 +4272,7 @@ body.page-id-12 .entry-header {
 	margin-bottom: 150px;
 }
 
+body.page-id-2453 .entry-title,
 body.page-id-12 .entry-title {
 	font-size: 1.5em;
 	line-height: 1;
@@ -4276,6 +4280,7 @@ body.page-id-12 .entry-title {
 	max-width: 150px;
 }
 
+body.page-id-2453 .entry-title::before,
 body.page-id-12 .entry-title::before {
 	content: "";
 	position: absolute;
@@ -4289,37 +4294,45 @@ body.page-id-12 .entry-title::before {
 	margin-top: -119px;
 }
 
+body.page-id-2453 .sharedaddy,
 body.page-id-12 .sharedaddy {
 	display: none;
 }
 
+body.page-id-2453 .entry-content,
 body.page-id-12 .entry-content {
 	max-width: 60rem;
 	margin: 0 auto;
 }
 
+body.page-id-2453 #content,
 body.page-id-12 #content {
 	background: none;
 }
 
+body.page-id-2453 .wordcamp-organizers,
 body.page-id-12 .wordcamp-organizers {
 	padding: 0;
 }
 
+body.page-id-2453 .org-info,
 body.page-id-12 .org-info {
 	color: #fff;
 }
 
+body.page-id-2453 .wordcamp-organizers .wordcamp-post-list__post,
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post {
 	background: #fff;
 	border-radius: 50px;
 	padding: 2em;
 }
 
+body.page-id-2453 .takoulinos,
 body.page-id-12 .takoulinos {
 	margin: 0;
 }
 
+body.page-id-2453 .wordcamp-organizer,
 body.page-id-12 .wordcamp-organizer {
 	display: grid;
 	grid-column-gap: 20px;
@@ -4328,6 +4341,7 @@ body.page-id-12 .wordcamp-organizer {
 	grid-template-columns: [avatar-start] 150px [content-start] 1fr [content-end];
 }
 
+body.page-id-2453 .wordcamp-organizers .wordcamp-post-list__post h3,
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post h3 {
 	grid-column-start: content-start;
 	text-align: left !important;
@@ -4337,6 +4351,7 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post h3 {
 	padding: 0;
 }
 
+body.page-id-2453 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container,
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container {
 	grid-column-start: avatar-start;
 	grid-row-start: title-start;
@@ -4344,12 +4359,14 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__
 	padding: 0;
 }
 
+body.page-id-2453 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container img,
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-image__avatar-container img {
 	border-radius: 50%;
 	margin: 0;
 	padding: 0;
 }
 
+body.page-id-2453 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__item-content,
 body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__item-content {
 	grid-column-start: content-start;
 }
@@ -4360,6 +4377,7 @@ body.page-id-12 .wordcamp-organizers .wordcamp-post-list__post .wordcamp-block__
 		grid-template-rows: auto;
 		grid-column-gap: 0px;
 	}
+	body.page-id-2453 .entry-title::before,
 	body.page-id-12 .entry-title::before {
 		height: 300px;
 		width: 440px;
