@@ -4280,6 +4280,10 @@ body.page-id-12 .entry-title {
 	max-width: 150px;
 }
 
+body.page-id-2453 .entry-title {
+	max-width: 240px;
+}
+
 body.page-id-2453 .entry-title::before,
 body.page-id-12 .entry-title::before {
 	content: "";
