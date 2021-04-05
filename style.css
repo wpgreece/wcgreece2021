@@ -4471,7 +4471,7 @@ Sponsors
 /* =============================
 Speakers
 ============================= */
-body.single-post .wp-block-image .alignleft {
+body.single-post .wp-block-image .alignleft, body.blog article.post .wp-block-image .alignleft{
 	margin-right: 0px !important;
 	margin: 0px !important;
 	width: 39%;
