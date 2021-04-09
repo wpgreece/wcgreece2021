@@ -4496,3 +4496,25 @@ Helpers
 .hide-me {
 	display: none !important;
 }
+
+
+/* =============================
+Schedule
+============================= */
+span.wordcamp-schedule__column-header {
+	background-color: #6968bb !important;
+	color: #fff;
+}
+dl.wordcamp-schedule__session-speakers a {
+	color: #6968bb !important;
+}
+h4.wordcamp-schedule__session-title {
+	display: block;
+	justify-content: space-between;
+}
+h3.wordcamp-schedule__time-slot-header.has-sessions {
+	background-color: #D2D4FF !important;
+}
+div.has-slug-opening-remarks, div.has-slug-opening-remarks-2, div.has-slug-afterparty,div.has-slug-closing-remarks, div.has-slug-panel-discussion-get-involved {
+	background-color: #D2D4FF;
+}
