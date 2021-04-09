@@ -4508,10 +4508,7 @@ span.wordcamp-schedule__column-header {
 dl.wordcamp-schedule__session-speakers a {
 	color: #6968bb !important;
 }
-h4.wordcamp-schedule__session-title {
-	display: block;
-	justify-content: space-between;
-}
+div.has-slug-opening-remarks h4.wordcamp-schedule__session-title, div.has-slug-opening-remarks-2 h4.wordcamp-schedule__session-title, div.has-slug-afterparty,div.has-slug-closing-remarks h4.wordcamp-schedule__session-title, div.has-slug-panel-discussion-get-involved h4.wordcamp-schedule__session-title {display: block !important;text-align: center;}
 h3.wordcamp-schedule__time-slot-header.has-sessions {
 	background-color: #D2D4FF !important;
 }
