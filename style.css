@@ -4521,3 +4521,6 @@ h2.wordcamp-schedule__date {
 div.wordcamp-schedule__session p {
 	display: none;
 }
+div.page-id-3074 .wordcamp-post-list.has-no-content {
+	display: none;
+}
