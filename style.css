@@ -4515,3 +4515,9 @@ h3.wordcamp-schedule__time-slot-header.has-sessions {
 div.has-slug-opening-remarks, div.has-slug-opening-remarks-2, div.has-slug-afterparty,div.has-slug-closing-remarks, div.has-slug-panel-discussion-get-involved {
 	background-color: #D2D4FF;
 }
+h2.wordcamp-schedule__date {
+	padding-top: 30px;
+}
+div.wordcamp-schedule__session p {
+	display: none;
+}
