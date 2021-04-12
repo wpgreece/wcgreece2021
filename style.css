@@ -4540,5 +4540,5 @@ div.wordcamp-schedule__session p {
 	display: none;
 }
 .wordcamp-schedule__time-slot-header, .editor-styles-wrapper h3.wordcamp-schedule__time-slot-header, .wordcamp-schedule__session {
-	padding: 10px;}
+	padding: 10px !important;}
 
