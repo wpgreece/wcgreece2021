@@ -1686,6 +1686,24 @@ button.wp-block-button__link.has-background {
 	#footer-widget-4 .small {
 		grid-template-columns: repeat(2,1fr);
 	}
+	#footer-widget-4 .inner > a {
+		border-radius: 15px;
+		padding: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#footer-widget-4 .small .inner > a {
+		 height: 25px;
+	 }
+	#footer-widget-4 .bronze .inner > a {
+		height: 35px;
+	}
+	#footer-widget-4 .silver .inner > a {
+		height: 45px;
+	}
+	#footer-widget-4 .gold .inner > a {
+		height: 55px;
+	}
 }
 
 @media(max-width:425px) {
