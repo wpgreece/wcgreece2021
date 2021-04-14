@@ -4542,3 +4542,9 @@ div.wordcamp-schedule__session p {
 .wordcamp-schedule__time-slot-header, .editor-styles-wrapper h3.wordcamp-schedule__time-slot-header, .wordcamp-schedule__session {
 	padding: 10px !important;}
 
+/* =============================
+Attendees
+============================= */
+#tix-attendees .avatar {
+	z-index: 10;
+}
