@@ -4548,3 +4548,9 @@ Attendees
 #tix-attendees .avatar {
 	z-index: 10;
 }
+
+@media ( max-width: 425px ) {
+	#tix-attendees .tix-columns-2 li {
+		width: 100%;
+	}
+}
