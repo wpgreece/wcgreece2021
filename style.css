@@ -4455,7 +4455,7 @@ body.page-id-1558 .entry-title::before {
 	margin-top: -119px;
 }
 
-body.page-id-1558 .entry-content h2 {
+body.page-id-1558 .entry-content > h2 {
 	color: #fff;
 	margin-bottom: 20px;
 	margin-top: 20px;
