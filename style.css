@@ -4541,6 +4541,9 @@ div.wordcamp-schedule__session p {
 }
 .wordcamp-schedule__time-slot-header, .editor-styles-wrapper h3.wordcamp-schedule__time-slot-header, .wordcamp-schedule__session {
 	padding: 10px !important;}
+.wordcamp-schedule__session-title, .editor-styles-wrapper .wp-block .wordcamp-schedule h4, .editor-styles-wrapper .wordcamp-schedule__session-title {
+	font-size: 0.9em;
+}
 
 /* =============================
 Attendees
